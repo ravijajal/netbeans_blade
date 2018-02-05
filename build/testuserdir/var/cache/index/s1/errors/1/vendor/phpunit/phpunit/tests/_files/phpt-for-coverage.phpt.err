@@ -1,1 +1,0 @@
-ERROR:8:Syntax error\n unexpected\d	--\n after\d	identifier 'EXPECT'\n expected\d	variable, instanceof, as, implements, =>, {, }, \d\d, \\, ',', OR, XOR, &&, ?, ;, ||, &&, |, ^, &, ==, !=, ===, !==, <=, >=, <=>, <, >, <<, >>, +, -, *, /, %, '.', [, ], (, ), \d, ??

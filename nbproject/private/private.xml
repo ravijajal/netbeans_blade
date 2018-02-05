@@ -3,14 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/ravi/NetBeansProjects/org.netbeans.modules.php.blade/src/org/netbeans/modules/php/blade/editor/typinghooks/BladeTypedTextInterceptor.java</file>
-            <file>file:/home/ravi/NetBeansProjects/org.netbeans.modules.php.blade/src/org/netbeans/modules/php/blade/editor/lexer/BladeVariableTokenId.java</file>
-            <file>file:/home/ravi/NetBeansProjects/org.netbeans.modules.php.blade/src/org/netbeans/modules/php/blade/editor/lexer/BladeBlockTokenId.java</file>
-            <file>file:/home/ravi/NetBeansProjects/org.netbeans.modules.php.blade/src/org/netbeans/modules/php/blade/editor/lexer/BladeTopTokenId.java</file>
-            <file>file:/home/ravi/NetBeansProjects/org.netbeans.modules.php.blade/src/org/netbeans/modules/php/blade/editor/BladeSyntax.java</file>
+            <file>file:/home/ravi/NetBeansProjects/org.netbeans.modules.php.blade/src/org/netbeans/modules/php/blade/resources/layer.xml</file>
+            <file>file:/home/ravi/NetBeansProjects/org.netbeans.modules.php.blade/src/org/netbeans/modules/php/blade/editor/BladeDataObject.java</file>
             <file>file:/home/ravi/NetBeansProjects/org.netbeans.modules.php.blade/src/org/netbeans/modules/php/blade/editor/gsf/BladeLanguage.java</file>
-            <file>file:/home/ravi/NetBeansProjects/org.netbeans.modules.php.blade/src/org/netbeans/modules/php/blade/editor/format/BladeIndenter.java</file>
-            <file>file:/home/ravi/NetBeansProjects/org.netbeans.modules.php.blade/src/org/netbeans/modules/php/blade/editor/typinghooks/BladeDeletedTextInterceptor.java</file>
+            <file>file:/home/ravi/NetBeansProjects/org.netbeans.modules.php.blade/src/org/netbeans/modules/php/blade/resources/Bundle.properties</file>
         </group>
     </open-files>
 </project-private>

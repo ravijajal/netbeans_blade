@@ -1,6 +1,0 @@
-WARNING:12:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'error'
-WARNING:12:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	String ''PHPUnit\\ExampleExtension\\TestCaseTrait''
-WARNING:12:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'not'
-WARNING:12:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'found'
-WARNING:12:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
-WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	End of File

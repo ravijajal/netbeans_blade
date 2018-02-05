@@ -1,1 +1,0 @@
-ERROR:38:Syntax error\n unexpected\d	->\n after\d	)\n expected\d	instanceof, as, =>, }, ',', OR, XOR, &&, ?, ;, ||, &&, |, ^, &, ==, !=, ===, !==, <=, >=, <=>, <, >, <<, >>, +, -, *, /, %, '.', ], (, ), \d, ??

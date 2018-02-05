@@ -1,8 +1,0 @@
-WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	variable '$bar'
-WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
-WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	public
-WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	public
-WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	?
-WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	variable '$bar'
-WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
-WARNING:38:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	End of File

@@ -1,7 +1,0 @@
-WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
-WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'by'
-WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Sebastian'
-WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Bergmann'
-WARNING:15:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'test'
-WARNING:15:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
-WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	End of File
