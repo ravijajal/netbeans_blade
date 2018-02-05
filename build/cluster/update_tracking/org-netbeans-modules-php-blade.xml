@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.php.blade/1">
-    <module_version install_time="1517824107936" last="true" origin="installer" specification_version="1.28">
-        <file crc="3198417699" name="config/Modules/org-netbeans-modules-php-blade.xml"/>
-        <file crc="2927755648" name="modules/org-netbeans-modules-php-blade.jar"/>
-    </module_version>
-</module>
