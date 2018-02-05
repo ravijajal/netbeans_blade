@@ -76,6 +76,9 @@ public class BladeParser extends Parser {
 
         PARSE_ELEMENTS.add("block"); //NOI18N
         PARSE_ELEMENTS.add("endblock"); //NOI18N
+        
+        PARSE_ELEMENTS.add("testit"); //NOI18N
+        PARSE_ELEMENTS.add("endtestit"); //NOI18N
 
         PARSE_ELEMENTS.add("set"); //NOI18N
         PARSE_ELEMENTS.add("endset"); //NOI18N

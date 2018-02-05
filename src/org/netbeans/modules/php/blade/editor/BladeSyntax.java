@@ -68,7 +68,8 @@ public final class BladeSyntax {
             "raw", //NOI18N
             "verbatim", //NOI18N
             "sandbox", //NOI18N
-            "trans" //NOI18N
+            "trans", //NOI18N
+            "testit" //NOI18N
     )));
 
     public static final Set<String> ELSE_MACROS = Collections.unmodifiableSet(new HashSet<>(Arrays.asList(

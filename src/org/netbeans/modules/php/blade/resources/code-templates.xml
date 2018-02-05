@@ -68,6 +68,16 @@ made subject to such option by the copyright holder.
 <![CDATA[endblock]]>
         </code>
     </codetemplate>
+    <codetemplate uuid="org.netbeans.modules.php.blade.editor.codetemplate.sec" abbreviation="sec" contexts="blade-code">
+        <code>
+<![CDATA[testit]]>
+        </code>
+    </codetemplate>
+    <codetemplate uuid="org.netbeans.modules.php.blade.editor.codetemplate.esec" abbreviation="esec" contexts="blade-code">
+        <code>
+<![CDATA[endtestit]]>
+        </code>
+    </codetemplate>
     <codetemplate uuid="org.netbeans.modules.php.blade.editor.codetemplate.em" abbreviation="em" contexts="blade-code">
         <code>
 <![CDATA[embed "${template.blade}"]]>

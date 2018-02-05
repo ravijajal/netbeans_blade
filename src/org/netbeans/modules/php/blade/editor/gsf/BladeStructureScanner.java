@@ -38,7 +38,7 @@
  *
  * Portions Copyrighted 2011 Sun Microsystems, Inc.
  */
-/*
+ /*
  * Contributor(s): Sebastian Hörl
  */
 package org.netbeans.modules.php.blade.editor.gsf;

@@ -74,6 +74,7 @@ public final class BladeBracesMatcher implements BracesMatcher {
         MATCHERS.add(new StartEndBlockMatcher("set")); //NOI18N
         MATCHERS.add(new StartEndBlockMatcher("spaceless")); //NOI18N
         MATCHERS.add(new StartEndBlockMatcher("verbatim")); //NOI18N
+        MATCHERS.add(new StartEndBlockMatcher("testit")); //NOI18N
         MATCHERS.add(new IfMatcher());
         MATCHERS.add(new EndIfMatcher());
         MATCHERS.add(new ElseMatcher());
