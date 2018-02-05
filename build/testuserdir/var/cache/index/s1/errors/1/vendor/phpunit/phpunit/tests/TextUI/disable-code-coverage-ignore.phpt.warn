@@ -1,0 +1,28 @@
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'by'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Sebastian'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Bergmann'
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	'.'
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	(
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:28:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'OK'
+WARNING:28:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'tests'
+WARNING:28:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:28:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'assertions'
+WARNING:28:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:31:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Coverage'
+WARNING:31:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Report'
+WARNING:31:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Summary'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:35:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Classes'
+WARNING:36:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Methods'
+WARNING:37:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Lines'
+WARNING:37:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:39:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'IgnoreCodeCoverageClass'
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Methods'
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Lines'
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	End of File

@@ -1,0 +1,1 @@
+{# empty Blade template #}

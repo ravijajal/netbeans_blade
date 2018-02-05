@@ -1,0 +1,48 @@
+WARNING:10:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	<
+WARNING:12:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	variable '$_SERVER'
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	--
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'by'
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Sebastian'
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Bergmann'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '2'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	(
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'There'
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'were'
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '2'
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'errors'
+WARNING:28:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:29:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'PHPUnit'
+WARNING:29:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:29:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Fatal'
+WARNING:29:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'error'
+WARNING:29:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	String ''PHPUnit\\Framework\\TestCase''
+WARNING:29:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'not'
+WARNING:29:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'found'
+WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'PHP'
+WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Stack'
+WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'trace'
+WARNING:31:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:33:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '2'
+WARNING:33:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'PHPUnit'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Fatal'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'error'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	String ''PHPUnit\\Framework\\TestCase''
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'not'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'found'
+WARNING:35:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'PHP'
+WARNING:35:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Stack'
+WARNING:35:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'trace'
+WARNING:36:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:38:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'ERRORS'
+WARNING:38:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	!
+WARNING:39:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:39:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:39:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	End of File

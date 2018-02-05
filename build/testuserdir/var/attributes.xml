@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="|home|ravi|NetBeansProjects|org.netbeans.modules.php.blade|build|testuserdir|var|cache|remotefiles|124e38fd26c19e05a8c88ec0429c4194.js">
+        <attr name="remote.url" stringvalue="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"/>
+    </fileobject>
+    <fileobject name="|home|ravi|NetBeansProjects|org.netbeans.modules.php.blade|build|testuserdir|var|cache|remotefiles|222df6ec6c07912eebdffd3cc43d36a5.js">
+        <attr name="remote.url" stringvalue="http://theme.thephpleague.com/js/prism.js"/>
+    </fileobject>
+    <fileobject name="|home|ravi|NetBeansProjects|org.netbeans.modules.php.blade|build|testuserdir|var|cache|remotefiles|84bef434a322413026f9ccc19514cb86.css">
+        <attr name="remote.url" stringvalue="http://theme.thephpleague.com/css/all.css"/>
+    </fileobject>
+    <fileobject name="|home|ravi|NetBeansProjects|org.netbeans.modules.php.blade|build|testuserdir|var|cache|remotefiles|a3a57d424ceb02e61deac2ae3be4ad93.js">
+        <attr name="remote.url" stringvalue="http://theme.thephpleague.com/js/scripts.js"/>
+    </fileobject>
+</attributes>

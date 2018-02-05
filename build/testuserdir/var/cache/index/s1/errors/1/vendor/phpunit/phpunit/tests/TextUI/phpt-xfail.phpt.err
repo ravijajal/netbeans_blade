@@ -1,0 +1,1 @@
+ERROR:10:Syntax error\n unexpected\d	--\n after\d	identifier 'EXPECTF'\n expected\d	variable, instanceof, as, implements, =>, {, }, \d\d, \\, ',', OR, XOR, &&, ?, ;, ||, &&, |, ^, &, ==, !=, ===, !==, <=, >=, <=>, <, >, <<, >>, +, -, *, /, %, '.', [, ], (, ), \d, ??

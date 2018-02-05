@@ -1,0 +1,169 @@
+WARNING:12:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:12:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'by'
+WARNING:12:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Sebastian'
+WARNING:12:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Bergmann'
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '13'
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	(
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'There'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'were'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '13'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'failures'
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'message'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Failed'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'asserting'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'that'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'two'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'arrays'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'are'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'equal'
+WARNING:23:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	++
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	+
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	@
+WARNING:28:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	=>
+WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:32:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '2'
+WARNING:32:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:33:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'message'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Failed'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'asserting'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'that'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '2'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'matches'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'expected'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	double '1.'
+WARNING:36:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:38:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '3'
+WARNING:38:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:39:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'message'
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Failed'
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'asserting'
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'that'
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'two'
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'objects'
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'are'
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'equal'
+WARNING:41:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:42:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	++
+WARNING:42:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	+
+WARNING:43:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	@
+WARNING:44:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Object'
+WARNING:45:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	=>
+WARNING:46:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	=>
+WARNING:48:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:50:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '4'
+WARNING:50:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:51:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'message'
+WARNING:52:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Failed'
+WARNING:52:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'asserting'
+WARNING:52:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'that'
+WARNING:52:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	String ''bar''
+WARNING:52:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'matches'
+WARNING:52:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'expected'
+WARNING:52:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'null'
+WARNING:54:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:54:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:56:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '5'
+WARNING:56:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:57:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'message'
+WARNING:58:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Failed'
+WARNING:58:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'asserting'
+WARNING:58:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'that'
+WARNING:58:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'two'
+WARNING:58:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'strings'
+WARNING:58:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'are'
+WARNING:58:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'equal'
+WARNING:59:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:60:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	++
+WARNING:60:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	+
+WARNING:61:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	@
+WARNING:65:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:67:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '6'
+WARNING:67:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:68:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'message'
+WARNING:69:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Failed'
+WARNING:69:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'asserting'
+WARNING:69:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'that'
+WARNING:69:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'two'
+WARNING:69:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'strings'
+WARNING:69:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'are'
+WARNING:69:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'equal'
+WARNING:70:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:71:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	++
+WARNING:71:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	+
+WARNING:72:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	@
+WARNING:102:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'foo'
+WARNING:102:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	String ''\n+''
+WARNING:103:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'bar'
+WARNING:105:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:107:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '10'
+WARNING:107:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:108:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'message'
+WARNING:109:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Failed'
+WARNING:109:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'asserting'
+WARNING:109:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'that'
+WARNING:109:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'two'
+WARNING:109:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'variables'
+WARNING:109:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'reference'
+WARNING:109:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'the'
+WARNING:109:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'same'
+WARNING:109:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'object'
+WARNING:111:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:111:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:113:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '11'
+WARNING:113:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:114:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'message'
+WARNING:115:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Failed'
+WARNING:115:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'asserting'
+WARNING:115:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'that'
+WARNING:115:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'null'
+WARNING:115:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'is'
+WARNING:115:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'identical'
+WARNING:115:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'to'
+WARNING:115:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'an'
+WARNING:115:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'object'
+WARNING:115:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'of'
+WARNING:115:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	class
+WARNING:115:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	String '"stdClass"'
+WARNING:117:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:117:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:119:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '12'
+WARNING:119:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:120:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'message'
+WARNING:121:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Failed'
+WARNING:121:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'asserting'
+WARNING:121:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'that'
+WARNING:121:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	double '1.5'
+WARNING:121:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'is'
+WARNING:121:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'identical'
+WARNING:121:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'to'
+WARNING:121:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	double '1.0'
+WARNING:123:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:123:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:125:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '13'
+WARNING:125:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:126:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Failed'
+WARNING:126:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'asserting'
+WARNING:126:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'that'
+WARNING:126:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'string'
+WARNING:126:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'matches'
+WARNING:126:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'format'
+WARNING:126:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'description'
+WARNING:127:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:128:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	++
+WARNING:128:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	+
+WARNING:129:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	@
+WARNING:131:POSSIBLE Syntax Error (check preceding valid syntax error)
+WARNING:131:POSSIBLE Syntax Error (check preceding valid syntax error)
+WARNING:133:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:135:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'FAILURES'
+WARNING:135:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	!
+WARNING:136:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:136:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:136:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:137:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	End of File

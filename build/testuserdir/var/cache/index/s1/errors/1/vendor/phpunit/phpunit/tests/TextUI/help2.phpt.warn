@@ -1,0 +1,197 @@
+WARNING:11:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:11:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'by'
+WARNING:11:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Sebastian'
+WARNING:11:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Bergmann'
+WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'UnitTest'
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'phpunit'
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	>
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Coverage'
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Options'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	>
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'code'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'coverage'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'report'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Clover'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'XML'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'format'
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	>
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'code'
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'coverage'
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'report'
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Crap4J'
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'XML'
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'format'
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	>
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'code'
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'coverage'
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'report'
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'HTML'
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'format'
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	>
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'PHP_CodeCoverage'
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'object'
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'to'
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'file'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	=
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'code'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'coverage'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'report'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'text'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'format'
+WARNING:23:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	default
+WARNING:23:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'output'
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	>
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'code'
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'coverage'
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'report'
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'PHPUnit'
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'XML'
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'format'
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	<
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	<
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	for
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'code'
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'coverage'
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'analysis'
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Disable'
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'annotations'
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	for
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'ignoring'
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'code'
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'coverage'
+WARNING:28:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Options'
+WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	>
+WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'test'
+WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'execution'
+WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
+WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'JUnit'
+WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'XML'
+WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'format'
+WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'to'
+WARNING:30:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'file'
+WARNING:31:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:31:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	>
+WARNING:31:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'test'
+WARNING:31:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'execution'
+WARNING:31:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
+WARNING:31:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'TeamCity'
+WARNING:31:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'format'
+WARNING:31:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'to'
+WARNING:31:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'file'
+WARNING:32:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:32:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	>
+WARNING:32:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'agile'
+WARNING:32:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'documentation'
+WARNING:32:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
+WARNING:32:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'HTML'
+WARNING:32:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'format'
+WARNING:32:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'to'
+WARNING:32:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'file'
+WARNING:33:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:33:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	>
+WARNING:33:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'agile'
+WARNING:33:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'documentation'
+WARNING:33:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
+WARNING:33:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Text'
+WARNING:33:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'format'
+WARNING:33:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'to'
+WARNING:33:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'file'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	>
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'agile'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'documentation'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'XML'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'format'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'to'
+WARNING:34:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'file'
+WARNING:35:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:35:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	print
+WARNING:35:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
+WARNING:35:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'reverse'
+WARNING:35:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'order'
+WARNING:37:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Test'
+WARNING:37:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Selection'
+WARNING:37:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Options'
+WARNING:39:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	<
+WARNING:39:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'which'
+WARNING:39:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'tests'
+WARNING:39:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'to'
+WARNING:39:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'run'
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	<
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'which'
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'testsuite'
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'to'
+WARNING:40:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'run'
+WARNING:41:POSSIBLE Syntax Error (check preceding valid syntax error)
+WARNING:41:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'runs'
+WARNING:41:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'tests'
+WARNING:41:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'from'
+WARNING:41:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'the'
+WARNING:41:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'specified'
+WARNING:41:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'group'
+WARNING:42:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:42:POSSIBLE Syntax Error (check preceding valid syntax error)
+WARNING:42:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'tests'
+WARNING:42:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'from'
+WARNING:42:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'the'
+WARNING:42:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'specified'
+WARNING:42:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'group'
+WARNING:43:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	list
+WARNING:43:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:43:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	list
+WARNING:43:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'available'
+WARNING:43:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'test'
+WARNING:43:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'groups'
+WARNING:44:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	list
+WARNING:44:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:44:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	list
+WARNING:44:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'available'
+WARNING:44:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'test'
+WARNING:44:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'suites'
+WARNING:45:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	list
+WARNING:45:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:45:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	list
+WARNING:45:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'available'
+WARNING:45:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'tests'
+WARNING:46:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	list
+WARNING:46:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:46:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	>
+WARNING:46:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'available'
+WARNING:46:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'tests'
+WARNING:46:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
+WARNING:46:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'XML'
+WARNING:46:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'format'
+WARNING:47:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:47:POSSIBLE Syntax Error (check preceding valid syntax error)
+WARNING:47:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'search'
+WARNING:47:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	for
+WARNING:47:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'test'
+WARNING:47:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
+WARNING:47:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'files'
+WARNING:47:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'with'
+WARNING:47:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'specified'
+WARNING:48:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'suffix'
+WARNING:48:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	default
+WARNING:48:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:50:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Test'
+WARNING:50:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Execution'
+WARNING:50:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Options'
+WARNING:52:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	-
+WARNING:52:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	do
+WARNING:52:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'report'

@@ -1,0 +1,24 @@
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'by'
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Sebastian'
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Bergmann'
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	(
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Balance'
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'is'
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'initially'
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'zero'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Balance'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'cannot'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'become'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'negative'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Time'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'OK'
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'tests'
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'assertions'
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)

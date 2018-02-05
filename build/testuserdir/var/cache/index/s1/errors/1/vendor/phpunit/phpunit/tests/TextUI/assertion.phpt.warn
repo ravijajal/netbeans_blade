@@ -1,0 +1,2 @@
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	<
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	variable '$_SERVER'

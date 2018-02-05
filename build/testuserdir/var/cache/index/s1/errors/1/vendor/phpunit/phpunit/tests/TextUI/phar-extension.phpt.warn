@@ -1,0 +1,20 @@
+WARNING:11:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:11:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'by'
+WARNING:11:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Sebastian'
+WARNING:11:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Bergmann'
+WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Configuration'
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:15:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Extension'
+WARNING:15:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	double '1.0'
+WARNING:15:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	double '.1'
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	(
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'OK'
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'test'
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'assertion'
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)

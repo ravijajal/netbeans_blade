@@ -1,0 +1,17 @@
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'by'
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Sebastian'
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Bergmann'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	'.'
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	(
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Two'
+WARNING:23:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Time'
+WARNING:23:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:23:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:23:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'OK'
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'tests'
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'assertions'
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)

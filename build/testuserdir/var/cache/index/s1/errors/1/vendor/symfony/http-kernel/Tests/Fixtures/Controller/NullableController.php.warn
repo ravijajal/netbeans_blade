@@ -1,0 +1,8 @@
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	variable '$foo'
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	variable '$bar'
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	variable '$baz'
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	}

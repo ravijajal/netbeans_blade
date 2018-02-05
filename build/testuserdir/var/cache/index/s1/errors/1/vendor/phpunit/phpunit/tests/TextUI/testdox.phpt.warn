@@ -1,0 +1,13 @@
+WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'by'
+WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Sebastian'
+WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Bergmann'
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Balance'
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'is'
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'initially'
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'zero'
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Balance'
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'cannot'
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'become'
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'negative'
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	End of File

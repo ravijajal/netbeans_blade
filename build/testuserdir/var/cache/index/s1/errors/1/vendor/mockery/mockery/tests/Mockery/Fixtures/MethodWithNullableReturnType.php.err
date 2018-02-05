@@ -1,0 +1,1 @@
+ERROR:33:Syntax error\n unexpected\d	?\n after\d	\d\n expected\d	identifier, array, callable, namespace, \\, define

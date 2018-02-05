@@ -1,0 +1,29 @@
+WARNING:12:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:12:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'by'
+WARNING:12:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Sebastian'
+WARNING:12:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Bergmann'
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '1'
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	(
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:16:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'There'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'was'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '1'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'failure'
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Failed'
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'asserting'
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'that'
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'false'
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'is'
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'true'
+WARNING:23:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:23:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'FAILURES'
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	!
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:26:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:27:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	End of File

@@ -1,0 +1,12 @@
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'by'
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Sebastian'
+WARNING:14:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Bergmann'
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:18:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'No'
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'tests'
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'executed'
+WARNING:20:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	!
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	End of File

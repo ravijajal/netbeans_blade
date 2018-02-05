@@ -1,0 +1,24 @@
+WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'by'
+WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Sebastian'
+WARNING:13:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Bergmann'
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'Time'
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:17:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	%
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'There'
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'was'
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	integer '1'
+WARNING:19:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'warning'
+WARNING:21:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	)
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'No'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'tests'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'found'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'in'
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	class
+WARNING:22:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	String '"NoTestCases"'
+WARNING:24:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	!
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	\d
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	','
+WARNING:25:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	End of File

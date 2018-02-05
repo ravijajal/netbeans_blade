@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MIME-resolver PUBLIC "-//NetBeans//DTD MIME Resolver 1.1//EN" "http://www.netbeans.org/dtds/mime-resolver-1_1.dtd">
+<MIME-resolver>
+    <file name="org.netbeans.modules.php.blade.editor.resolver-BladeMIMEResolver.instance">
+        <name name=".blade.php" substring="true"/>
+        <resolver mime="text/x-blade"/>
+    </file>
+</MIME-resolver>

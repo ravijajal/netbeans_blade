@@ -1,0 +1,9 @@
+WARNING:8:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'must'
+WARNING:8:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'look'
+WARNING:8:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'at'
+WARNING:8:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'STDERR'
+WARNING:8:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'when'
+WARNING:8:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'running'
+WARNING:8:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'PHPT'
+WARNING:8:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	identifier 'tests'
+WARNING:9:POSSIBLE Syntax Error (check preceding valid syntax error)\n unexpected\d	End of File
