@@ -1,2 +1,3 @@
 build/*
 nbproject/private/*
+src/org/netbeans/modules/php/blade/editor/lexer/*.java~
