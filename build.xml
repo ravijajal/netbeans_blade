@@ -5,4 +5,17 @@
 <project name="org.netbeans.modules.php.blade" default="netbeans" basedir=".">
     <description>Builds, tests, and runs the project org.netbeans.modules.php.blade.</description>
     <import file="nbproject/build-impl.xml"/>
+    <taskdef name="jflex"
+             classname="jflex.anttask.JFlexTask"
+             classpath="/home/ravi/jflex-1.6.1/jflex-1.6.1/lib/JFlex.jar" />
+
+    <target name="gen-toplexer" >
+        <jflex file="tools/BladeTopColoringLexer.flex" destdir="src" skel="tools/skeleton.netbeans" />
+    </target>
+    <target name="gen-blocklexer" >
+        <jflex file="tools/BladeBlockColoringLexer.flex" destdir="src" skel="tools/skeleton.netbeans" />
+    </target>
+    <target name="gen-variablelexer" >
+        <jflex file="tools/BladeVariableColoringLexer.flex" destdir="src" skel="tools/skeleton.netbeans" />
+    </target>
 </project>

@@ -65,6 +65,7 @@ public final class BladeBracesMatcher implements BracesMatcher {
     static {
         MATCHERS.add(new StartEndBlockMatcher("autoescape")); //NOI18N
         MATCHERS.add(new StartEndBlockMatcher("block")); //NOI18N
+        MATCHERS.add(new StartEndBlockMatcher("tesi")); //NOI18N
         MATCHERS.add(new StartEndBlockMatcher("embed")); //NOI18N
         MATCHERS.add(new StartEndBlockMatcher("filter")); //NOI18N
         MATCHERS.add(new StartEndBlockMatcher("for")); //NOI18N
@@ -74,7 +75,6 @@ public final class BladeBracesMatcher implements BracesMatcher {
         MATCHERS.add(new StartEndBlockMatcher("set")); //NOI18N
         MATCHERS.add(new StartEndBlockMatcher("spaceless")); //NOI18N
         MATCHERS.add(new StartEndBlockMatcher("verbatim")); //NOI18N
-        MATCHERS.add(new StartEndBlockMatcher("testit")); //NOI18N
         MATCHERS.add(new IfMatcher());
         MATCHERS.add(new EndIfMatcher());
         MATCHERS.add(new ElseMatcher());

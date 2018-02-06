@@ -38,7 +38,7 @@
  *
  * Portions Copyrighted 2011 Sun Microsystems, Inc.
  */
-/*
+ /*
  * Contributor(s): Sebastian Hörl
  */
 package org.netbeans.modules.php.blade.editor.parsing;
@@ -76,9 +76,9 @@ public class BladeParser extends Parser {
 
         PARSE_ELEMENTS.add("block"); //NOI18N
         PARSE_ELEMENTS.add("endblock"); //NOI18N
-        
-        PARSE_ELEMENTS.add("testit"); //NOI18N
-        PARSE_ELEMENTS.add("endtestit"); //NOI18N
+
+        PARSE_ELEMENTS.add("tesi"); //NOI18N
+        PARSE_ELEMENTS.add("endtesi"); //NOI18N
 
         PARSE_ELEMENTS.add("set"); //NOI18N
         PARSE_ELEMENTS.add("endset"); //NOI18N
@@ -138,7 +138,6 @@ public class BladeParser extends Parser {
                     Token<BladeBlockTokenId> token = (Token<BladeBlockTokenId>) sequence.token();
 
                     /* Parse block */
-
                     Block block = new Block();
                     block.function = "";
                     block.startTokenOffset = sequence.offset();
@@ -161,7 +160,6 @@ public class BladeParser extends Parser {
                         sequence.move(block.startTokenOffset);
 
                         while (sequence.moveNext()) {
-
                             token = (Token<BladeBlockTokenId>) sequence.token();
                             if (token.id() == BladeBlockTokenId.T_BLADE_TAG) {
 
@@ -249,7 +247,6 @@ public class BladeParser extends Parser {
             } // endfor: All blocks are now saved in blockList
 
             /* Analyse block structure */
-
             Stack<Block> blockStack = new Stack<>();
 
             for (Block block : blockList) {
@@ -304,7 +301,6 @@ public class BladeParser extends Parser {
             }
 
             // Parsing done!
-
         }
 
     }
@@ -327,6 +323,7 @@ public class BladeParser extends Parser {
     }
 
     private static class Block {
+
         CharSequence function = null;
         CharSequence extra = null;
         int startTokenOffset = 0;
