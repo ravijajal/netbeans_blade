@@ -99,7 +99,7 @@ public class BladeIndenter extends AbstractIndenter<BladeTopTokenId> {
         boolean nonControlMacro = false;
         int embeddingLevel = 0;
         String lastMacro = "";
-        Token<BladeTopTokenId> lastToken = null; // #243184 for checking this case {% %}{% %}
+        Token<BladeTopTokenId> lastToken = null; // #243184 for checking this case {@ @}{@ @}
         // iterate over tokens on the line and push to stack any changes
         while (!context.isBlankLine() && ts.moveNext()
                  && ((ts.isCurrentTokenSequenceVirtual() && ts.offset() < context.getLineEndOffset())
@@ -238,12 +238,12 @@ public class BladeIndenter extends AbstractIndenter<BladeTopTokenId> {
     }
 
     private static boolean isSetBlock(String tokenText){
-        // e.g. {% set foo = 'foo' %}
+        // e.g. {@ set foo = 'foo' @}
         return tokenText.contains(SET_TAG) && tokenText.contains("="); // NOI18N
     }
 
     private static boolean isShortedTransBlock(String tokenText) {
-        // e.g. {% trans "something" %}
+        // e.g. {@ trans "something" @}
         int indexOfTrans = tokenText.indexOf(TRANS_TAG);
         if (indexOfTrans != -1) {
             String prefix = tokenText.substring(0, indexOfTrans).trim();

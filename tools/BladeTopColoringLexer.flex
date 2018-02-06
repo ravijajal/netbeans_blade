@@ -214,12 +214,12 @@ import org.netbeans.modules.web.common.api.ByteStack;
 %}
 
 WHITESPACE=[ \t\r\n]+
-BLOCK_START="{%"
-BLOCK_END="%}"
-BLOCK_RAW_START="{%"[ \t]*"raw"[ \t]*"%}"
-BLOCK_RAW_END="{%"[ \t]*"endraw"[ \t]*"%}"
-BLOCK_VERBATIM_START="{%"[ \t]*"verbatim"[ \t]*"%}"
-BLOCK_VERBATIM_END="{%"[ \t]*"endverbatim"[ \t]*"%}"
+BLOCK_START="{@"
+BLOCK_END="@}"
+BLOCK_RAW_START="{@"[ \t]*"raw"[ \t]*"@}"
+BLOCK_RAW_END="{@"[ \t]*"endraw"[ \t]*"@}"
+BLOCK_VERBATIM_START="{@"[ \t]*"verbatim"[ \t]*"@}"
+BLOCK_VERBATIM_END="{@"[ \t]*"endverbatim"[ \t]*"@}"
 VAR_START="{{"
 VAR_END="}}"
 COMMENT_START="{#"
@@ -253,7 +253,7 @@ CLOSE_CURLY="}"
     }
     {BLOCK_RAW_END} {
         if (lexing != Lexing.VERBATIM) {
-            int indexOfRawBlockStart = yytext().lastIndexOf("{%"); //NOI18N
+            int indexOfRawBlockStart = yytext().lastIndexOf("{@"); //NOI18N
             yypushback(yylength() - indexOfRawBlockStart);
             pushState(ST_RAW_END);
         }
@@ -266,7 +266,7 @@ CLOSE_CURLY="}"
     }
     {BLOCK_VERBATIM_END} {
         if (lexing != Lexing.RAW) {
-            int indexOfVerbatimBlockStart = yytext().lastIndexOf("{%"); //NOI18N
+            int indexOfVerbatimBlockStart = yytext().lastIndexOf("{@"); //NOI18N
             yypushback(yylength() - indexOfVerbatimBlockStart);
             pushState(ST_VERBATIM_END);
         }

@@ -74,7 +74,7 @@ public final class TypingHooksUtils {
     }
 
     public static boolean isOpeningDelimiterChar(char c) {
-        return c == '{' || c == '%';
+        return c == '{' || c == '@';
     }
 
 }
