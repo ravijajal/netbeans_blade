@@ -77,8 +77,8 @@ public class BladeParser extends Parser {
         PARSE_ELEMENTS.add("block"); //NOI18N
         PARSE_ELEMENTS.add("endblock"); //NOI18N
 
-        PARSE_ELEMENTS.add("tesi"); //NOI18N
-        PARSE_ELEMENTS.add("endtesi"); //NOI18N
+        PARSE_ELEMENTS.add("@tesi"); //NOI18N
+        PARSE_ELEMENTS.add("@endtesi"); //NOI18N
 
         PARSE_ELEMENTS.add("set"); //NOI18N
         PARSE_ELEMENTS.add("endset"); //NOI18N
@@ -251,7 +251,7 @@ public class BladeParser extends Parser {
 
             for (Block block : blockList) {
 
-                if (CharSequenceUtilities.startsWith(block.function, "end")) { //NOI18N
+                if (CharSequenceUtilities.startsWith(block.function, "@end")) { //NOI18N
 
                     if (blockStack.empty()) { // End tag, but no more tokens on stack!
 

@@ -70,10 +70,12 @@ public class BladeTopColoringLexer {
   public static final int ST_RAW_END = 4;
   public static final int ST_VERBATIM_START = 6;
   public static final int ST_VERBATIM_END = 8;
-  public static final int ST_BLOCK = 10;
-  public static final int ST_VAR = 12;
-  public static final int ST_COMMENT = 14;
-  public static final int ST_HIGHLIGHTING_ERROR = 16;
+  public static final int ST_TESI_START = 10;
+  public static final int ST_TESI_END = 12;
+  public static final int ST_BLOCK = 14;
+  public static final int ST_VAR = 16;
+  public static final int ST_COMMENT = 18;
+  public static final int ST_HIGHLIGHTING_ERROR = 20;
 
   /**
    * ZZ_LEXSTATE[l] is the state in the DFA for the lexical state l
@@ -83,20 +85,20 @@ public class BladeTopColoringLexer {
    */
   private static final int ZZ_LEXSTATE[] = { 
      0,  0,  1,  1,  2,  2,  3,  3,  2,  2,  4,  4,  5,  5,  6,  6, 
-     7, 7
+     7,  7,  8,  8,  9, 9
   };
 
   /** 
    * Translates characters to character classes
    */
   private static final String ZZ_CMAP_PACKED = 
-    "\11\0\1\5\1\1\1\25\1\25\1\1\22\0\1\5\1\0\1\22"+
-    "\1\21\3\0\1\23\30\0\1\3\1\7\1\15\1\0\1\13\1\11"+
-    "\3\0\1\17\3\0\1\20\1\12\3\0\1\6\1\0\1\16\1\0"+
-    "\1\14\1\10\4\0\1\24\4\0\1\7\1\15\1\0\1\13\1\11"+
-    "\3\0\1\17\3\0\1\20\1\12\3\0\1\6\1\0\1\16\1\0"+
-    "\1\14\1\10\3\0\1\2\1\0\1\4\7\0\1\25\252\0\2\17"+
-    "\u1ef6\0\1\25\1\25\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\udfe6\0";
+    "\11\0\1\5\1\1\1\26\1\26\1\1\22\0\1\5\1\0\1\23"+
+    "\1\22\3\0\1\24\30\0\1\3\1\7\1\15\1\0\1\13\1\11"+
+    "\3\0\1\17\3\0\1\20\1\12\3\0\1\6\1\21\1\16\1\0"+
+    "\1\14\1\10\4\0\1\25\4\0\1\7\1\15\1\0\1\13\1\11"+
+    "\3\0\1\17\3\0\1\20\1\12\3\0\1\6\1\21\1\16\1\0"+
+    "\1\14\1\10\3\0\1\2\1\0\1\4\7\0\1\26\252\0\2\17"+
+    "\115\0\1\21\u1ea8\0\1\26\1\26\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\udfe6\0";
 
   /** 
    * Translates characters to character classes
@@ -109,13 +111,14 @@ public class BladeTopColoringLexer {
   private static final int [] ZZ_ACTION = zzUnpackAction();
 
   private static final String ZZ_ACTION_PACKED_0 =
-    "\10\0\7\1\1\2\1\3\1\4\1\5\4\1\1\0"+
-    "\1\6\1\7\1\10\1\11\1\12\1\13\1\14\1\15"+
-    "\1\16\1\0\1\17\4\0\1\20\12\0\1\21\11\0"+
-    "\1\22\5\0\1\23\2\0\1\24";
+    "\12\0\12\1\1\2\1\3\1\4\1\5\4\1\1\0"+
+    "\1\6\1\7\1\10\1\11\2\0\1\12\1\13\1\14"+
+    "\1\15\2\0\1\16\1\0\1\17\10\0\1\20\13\0"+
+    "\1\21\1\22\5\0\1\23\7\0\1\24\3\0\1\25"+
+    "\5\0\1\26\2\0\1\27";
 
   private static int [] zzUnpackAction() {
-    int [] result = new int[70];
+    int [] result = new int[93];
     int offset = 0;
     offset = zzUnpackAction(ZZ_ACTION_PACKED_0, offset, result);
     return result;
@@ -140,18 +143,21 @@ public class BladeTopColoringLexer {
   private static final int [] ZZ_ROWMAP = zzUnpackRowMap();
 
   private static final String ZZ_ROWMAP_PACKED_0 =
-    "\0\0\0\26\0\54\0\102\0\130\0\156\0\204\0\232"+
-    "\0\260\0\306\0\334\0\362\0\u0108\0\u011e\0\u0134\0\260"+
-    "\0\u014a\0\260\0\260\0\u0160\0\u0176\0\u018c\0\u01a2\0\u0176"+
-    "\0\260\0\260\0\u01b8\0\260\0\260\0\260\0\260\0\260"+
-    "\0\u01ce\0\u01a2\0\260\0\u01b8\0\u01e4\0\u01fa\0\u0210\0\260"+
-    "\0\u0226\0\u023c\0\u0252\0\u0268\0\u027e\0\u0294\0\u02aa\0\u02c0"+
-    "\0\u02d6\0\u02ec\0\260\0\u0302\0\u0318\0\u032e\0\u0344\0\u035a"+
-    "\0\u0370\0\u0386\0\u039c\0\u03b2\0\260\0\u03c8\0\u03de\0\u03f4"+
-    "\0\u040a\0\u0420\0\260\0\u0436\0\u044c\0\260";
+    "\0\0\0\27\0\56\0\105\0\134\0\163\0\212\0\241"+
+    "\0\270\0\317\0\346\0\375\0\u0114\0\u012b\0\u0142\0\u0159"+
+    "\0\u0170\0\u0187\0\u019e\0\u01b5\0\346\0\u01cc\0\346\0\346"+
+    "\0\u01e3\0\u01fa\0\u0211\0\u0228\0\u01fa\0\346\0\346\0\u023f"+
+    "\0\346\0\u0256\0\u026d\0\346\0\346\0\346\0\346\0\u0284"+
+    "\0\u029b\0\u02b2\0\u0228\0\346\0\u023f\0\u02c9\0\u02e0\0\u02f7"+
+    "\0\u030e\0\u0325\0\u033c\0\u0353\0\346\0\u036a\0\u0381\0\u0398"+
+    "\0\u03af\0\u03c6\0\u01b5\0\u03dd\0\u03f4\0\u040b\0\u0422\0\u0439"+
+    "\0\346\0\346\0\u0450\0\u0467\0\u047e\0\u0495\0\u04ac\0\346"+
+    "\0\u04c3\0\u04da\0\u04f1\0\u0508\0\u051f\0\u0536\0\u054d\0\346"+
+    "\0\u0564\0\u057b\0\u0592\0\346\0\u05a9\0\u05c0\0\u05d7\0\u05ee"+
+    "\0\u0605\0\346\0\u061c\0\u0633\0\346";
 
   private static int [] zzUnpackRowMap() {
-    int [] result = new int[70];
+    int [] result = new int[93];
     int offset = 0;
     offset = zzUnpackRowMap(ZZ_ROWMAP_PACKED_0, offset, result);
     return result;
@@ -174,31 +180,38 @@ public class BladeTopColoringLexer {
   private static final int [] ZZ_TRANS = zzUnpackTrans();
 
   private static final String ZZ_TRANS_PACKED_0 =
-    "\1\11\1\12\1\13\2\11\1\12\17\11\1\0\1\11"+
-    "\1\12\1\14\1\15\1\11\1\12\17\11\1\0\1\11"+
-    "\1\12\1\16\1\15\1\11\1\12\17\11\1\0\1\11"+
-    "\1\12\1\17\1\15\1\11\1\12\17\11\1\0\1\11"+
-    "\1\12\1\11\1\15\1\11\1\12\17\11\1\0\1\11"+
-    "\1\12\1\20\1\11\1\21\1\12\14\11\1\22\1\23"+
-    "\1\24\1\0\1\25\1\26\3\25\1\26\13\25\1\27"+
-    "\3\25\1\30\1\31\1\0\23\31\30\0\1\12\3\0"+
-    "\1\12\22\0\1\32\1\33\15\0\1\34\7\0\1\35"+
-    "\26\0\1\36\24\0\1\37\25\0\1\40\26\0\1\41"+
-    "\43\0\3\11\1\0\21\30\1\42\5\30\1\26\3\30"+
-    "\1\26\13\30\1\42\10\30\1\43\21\30\5\0\1\44"+
-    "\1\45\2\0\1\46\2\0\1\47\15\0\1\50\30\0"+
-    "\1\51\30\0\1\52\24\0\1\53\24\0\1\54\30\0"+
-    "\1\55\20\0\1\56\22\0\1\57\1\0\1\54\26\0"+
-    "\1\60\5\0\1\61\26\0\1\62\14\0\1\63\30\0"+
-    "\1\64\27\0\1\65\23\0\1\66\26\0\1\67\23\0"+
-    "\1\70\35\0\1\71\12\0\1\72\1\0\1\67\35\0"+
-    "\1\73\27\0\1\74\12\0\1\75\30\0\1\76\36\0"+
-    "\1\77\23\0\1\100\12\0\1\101\1\0\1\77\37\0"+
-    "\1\102\12\0\1\103\41\0\1\104\10\0\1\105\1\0"+
-    "\1\104\24\0\1\106\21\0";
+    "\1\13\1\14\1\15\1\16\1\13\1\14\20\13\1\0"+
+    "\1\13\1\14\1\17\1\20\1\13\1\14\20\13\1\0"+
+    "\1\13\1\14\1\21\1\20\1\13\1\14\20\13\1\0"+
+    "\1\13\1\14\1\22\1\20\1\13\1\14\20\13\1\0"+
+    "\1\13\1\14\1\13\1\23\1\13\1\14\20\13\1\0"+
+    "\1\13\1\14\1\13\1\24\1\13\1\14\20\13\1\0"+
+    "\1\13\1\14\1\13\1\20\1\13\1\14\20\13\1\0"+
+    "\1\13\1\14\1\25\1\13\1\26\1\14\15\13\1\27"+
+    "\1\30\1\31\1\0\1\32\1\33\3\32\1\33\14\32"+
+    "\1\34\3\32\1\35\1\36\1\0\24\36\31\0\1\14"+
+    "\3\0\1\14\23\0\1\37\1\40\16\0\1\41\15\0"+
+    "\1\42\4\0\1\43\13\0\1\44\27\0\1\45\25\0"+
+    "\1\46\26\0\1\47\34\0\1\50\33\0\1\51\14\0"+
+    "\1\52\45\0\3\13\1\0\22\35\1\53\5\35\1\33"+
+    "\3\35\1\33\14\35\1\53\10\35\1\54\22\35\5\0"+
+    "\1\55\1\56\2\0\1\57\2\0\1\60\24\0\1\61"+
+    "\25\0\1\62\27\0\1\63\25\0\1\64\21\0\1\65"+
+    "\31\0\1\66\31\0\1\67\25\0\1\70\30\0\1\71"+
+    "\34\0\1\72\20\0\1\73\34\0\1\74\15\0\1\75"+
+    "\31\0\1\76\21\0\1\77\36\0\1\100\27\0\1\101"+
+    "\26\0\1\102\12\0\1\103\1\0\1\75\27\0\1\104"+
+    "\5\0\1\105\27\0\1\106\22\0\1\107\21\0\1\110"+
+    "\31\0\1\111\30\0\1\112\24\0\1\113\40\0\1\114"+
+    "\15\0\1\115\24\0\1\116\36\0\1\117\27\0\1\120"+
+    "\12\0\1\121\1\0\1\115\36\0\1\122\30\0\1\123"+
+    "\13\0\1\124\31\0\1\125\37\0\1\126\24\0\1\127"+
+    "\13\0\1\130\1\0\1\126\40\0\1\131\13\0\1\132"+
+    "\42\0\1\133\11\0\1\134\1\0\1\133\25\0\1\135"+
+    "\22\0";
 
   private static int [] zzUnpackTrans() {
-    int [] result = new int[1122];
+    int [] result = new int[1610];
     int offset = 0;
     offset = zzUnpackTrans(ZZ_TRANS_PACKED_0, offset, result);
     return result;
@@ -236,12 +249,13 @@ public class BladeTopColoringLexer {
   private static final int [] ZZ_ATTRIBUTE = zzUnpackAttribute();
 
   private static final String ZZ_ATTRIBUTE_PACKED_0 =
-    "\10\0\1\11\6\1\1\11\1\1\2\11\4\1\1\0"+
-    "\2\11\1\1\5\11\1\1\1\0\1\11\4\0\1\11"+
-    "\12\0\1\11\11\0\1\11\5\0\1\11\2\0\1\11";
+    "\12\0\1\11\11\1\1\11\1\1\2\11\4\1\1\0"+
+    "\2\11\1\1\1\11\2\0\4\11\2\0\1\1\1\0"+
+    "\1\11\10\0\1\11\13\0\2\11\5\0\1\11\7\0"+
+    "\1\11\3\0\1\11\5\0\1\11\2\0\1\11";
 
   private static int [] zzUnpackAttribute() {
-    int [] result = new int[70];
+    int [] result = new int[93];
     int offset = 0;
     offset = zzUnpackAttribute(ZZ_ATTRIBUTE_PACKED_0, offset, result);
     return result;
@@ -472,7 +486,7 @@ public class BladeTopColoringLexer {
     char [] map = new char[0x110000];
     int i = 0;  /* index in packed string  */
     int j = 0;  /* index in unpacked array */
-    while (i < 160) {
+    while (i < 164) {
       int  count = packed.charAt(i++);
       char value = packed.charAt(i++);
       do map[j++] = value; while (--count > 0);
@@ -707,40 +721,40 @@ public class BladeTopColoringLexer {
          input.backup(input.readLength() - tokenLength);
       }
 
-       
+          
         switch (zzAction < 0 ? zzAction : ZZ_ACTION[zzAction]) {
           case 1: 
             { 
             }
-          case 21: break;
+          case 24: break;
           case 2: 
             { if (!probablyInDString && !probablyInSString) {
             curlyBalance++;
         }
             }
-          case 22: break;
+          case 25: break;
           case 3: 
             { if (!probablyInDString && !probablyInSString) {
             curlyBalance--;
         }
             }
-          case 23: break;
+          case 26: break;
           case 4: 
             { if (!probablyInSString) {
             probablyInDString = !probablyInDString;
         }
             }
-          case 24: break;
+          case 27: break;
           case 5: 
             { if (!probablyInDString) {
             probablyInSString = !probablyInSString;
         }
             }
-          case 25: break;
+          case 28: break;
           case 6: 
             { return BladeTopTokenId.T_BLADE_OTHER;
             }
-          case 26: break;
+          case 29: break;
           case 7: 
             { if (lexing == Lexing.NORMAL) {
             if (yylength() > 2) {
@@ -752,7 +766,7 @@ public class BladeTopColoringLexer {
             return BladeTopTokenId.T_BLADE_VAR_START;
         }
             }
-          case 27: break;
+          case 30: break;
           case 8: 
             { if (lexing == Lexing.NORMAL) {
             if (yylength() > 2) {
@@ -763,7 +777,7 @@ public class BladeTopColoringLexer {
             return BladeTopTokenId.T_BLADE_BLOCK_START;
         }
             }
-          case 28: break;
+          case 31: break;
           case 9: 
             { if (lexing == Lexing.NORMAL) {
             int textLength = yylength();
@@ -774,7 +788,7 @@ public class BladeTopColoringLexer {
             }
         }
             }
-          case 29: break;
+          case 32: break;
           case 10: 
             { if (yylength() > 2) {
             yypushback(2);
@@ -783,7 +797,7 @@ public class BladeTopColoringLexer {
         lexing = Lexing.RAW;
         return BladeTopTokenId.T_BLADE_BLOCK_START;
             }
-          case 30: break;
+          case 33: break;
           case 11: 
             { if (yylength() > 2) {
             yypushback(2);
@@ -792,7 +806,7 @@ public class BladeTopColoringLexer {
         popState();
         return BladeTopTokenId.T_BLADE_BLOCK_END;
             }
-          case 31: break;
+          case 34: break;
           case 12: 
             { if (yylength() > 2) {
             yypushback(2);
@@ -801,7 +815,7 @@ public class BladeTopColoringLexer {
         lexing = Lexing.NORMAL;
         return BladeTopTokenId.T_BLADE_BLOCK_START;
             }
-          case 32: break;
+          case 35: break;
           case 13: 
             { if (yylength() > 2) {
             yypushback(2);
@@ -810,7 +824,7 @@ public class BladeTopColoringLexer {
         lexing = Lexing.VERBATIM;
         return BladeTopTokenId.T_BLADE_BLOCK_START;
             }
-          case 33: break;
+          case 36: break;
           case 14: 
             { if (!probablyInDString && !probablyInSString) {
             if (yylength() > 2) {
@@ -836,12 +850,12 @@ public class BladeTopColoringLexer {
             }
         }
             }
-          case 34: break;
+          case 37: break;
           case 15: 
             { popState();
         return BladeTopTokenId.T_BLADE_COMMENT;
             }
-          case 35: break;
+          case 38: break;
           case 16: 
             { // {{{}}}
         if (!probablyInDString && !probablyInSString) {
@@ -853,42 +867,56 @@ public class BladeTopColoringLexer {
             }
         }
             }
-          case 36: break;
+          case 39: break;
           case 17: 
+            { pushState(ST_TESI_START);
+        return BladeTopTokenId.T_BLADE_BLOCK;
+            }
+          case 40: break;
+          case 18: 
+            { popState();
+        return BladeTopTokenId.T_HTML;
+            }
+          case 41: break;
+          case 19: 
             { if (lexing == Lexing.NORMAL) {
             yypushback(yylength());
             pushState(ST_RAW_START);
         }
             }
-          case 37: break;
-          case 18: 
+          case 42: break;
+          case 20: 
+            { pushState(ST_TESI_END);
+        return BladeTopTokenId.T_BLADE_BLOCK;
+            }
+          case 43: break;
+          case 21: 
             { if (lexing != Lexing.VERBATIM) {
             int indexOfRawBlockStart = yytext().lastIndexOf("{@"); //NOI18N
             yypushback(yylength() - indexOfRawBlockStart);
             pushState(ST_RAW_END);
         }
             }
-          case 38: break;
-          case 19: 
+          case 44: break;
+          case 22: 
             { if (lexing == Lexing.NORMAL) {
             yypushback(yylength());
             pushState(ST_VERBATIM_START);
         }
             }
-          case 39: break;
-          case 20: 
+          case 45: break;
+          case 23: 
             { if (lexing != Lexing.RAW) {
             int indexOfVerbatimBlockStart = yytext().lastIndexOf("{@"); //NOI18N
             yypushback(yylength() - indexOfVerbatimBlockStart);
             pushState(ST_VERBATIM_END);
         }
             }
-          case 40: break;
- default:
+          case 46: break;
+          default:
           if (zzInput == YYEOF)
             //zzAtEOF = true;
-              
-          {         if(input.readLength() > 0) {
+{         if(input.readLength() > 0) {
             // backup eof
             input.backup(1);
             //and return the text as error token
@@ -902,7 +930,8 @@ public class BladeTopColoringLexer {
         } else {
             return null;
         }
-          }
+ }
+        
           else {
             zzScanError(ZZ_NO_MATCH);
           }

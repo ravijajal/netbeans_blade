@@ -65,7 +65,7 @@ public final class BladeBracesMatcher implements BracesMatcher {
     static {
         MATCHERS.add(new StartEndBlockMatcher("autoescape")); //NOI18N
         MATCHERS.add(new StartEndBlockMatcher("block")); //NOI18N
-        MATCHERS.add(new StartEndBlockMatcher("tesi")); //NOI18N
+        MATCHERS.add(new StartEndBlockMatcher("@tesi")); //NOI18N
         MATCHERS.add(new StartEndBlockMatcher("embed")); //NOI18N
         MATCHERS.add(new StartEndBlockMatcher("filter")); //NOI18N
         MATCHERS.add(new StartEndBlockMatcher("for")); //NOI18N
@@ -310,12 +310,12 @@ public final class BladeBracesMatcher implements BracesMatcher {
     }
 
     private static final class StartEndBlockMatcher implements Matcher {
-        private static final String END = "end"; //NOI18N
+        private static final String END = "@end"; //NOI18N
         private final String blockName;
 
         public StartEndBlockMatcher(String blockName) {
             assert blockName != null;
-            this.blockName = blockName;
+            this.blockName = blockName.replaceFirst("@", "");
         }
 
         @Override
