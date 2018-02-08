@@ -220,8 +220,6 @@ BLOCK_RAW_START="{@"[ \t]*"raw"[ \t]*"@}"
 BLOCK_RAW_END="{@"[ \t]*"endraw"[ \t]*"@}"
 BLOCK_VERBATIM_START="{@"[ \t]*"verbatim"[ \t]*"@}"
 BLOCK_VERBATIM_END="{@"[ \t]*"endverbatim"[ \t]*"@}"
-BLOCK_TESI_START="@tesi"
-BLOCK_TESI_END="@endtesi"
 VAR_START="{{"
 VAR_END="}}"
 COMMENT_START="{#"
@@ -231,13 +229,14 @@ S_STRING_DELIM='
 PRECEDED_STRING="\\\'"|"\\\""|"\\\\"
 OPEN_CURLY="{"
 CLOSE_CURLY="}"
+SECTION_PREFIX = "@"
+SECTION=("component"|"extends"|"parent"|"section"|"slot"|"show"|"yield")
+SECTION_END=("endcomponent"|"endsection"|"endslot")
 
 %state ST_RAW_START
 %state ST_RAW_END
 %state ST_VERBATIM_START
 %state ST_VERBATIM_END
-%state ST_TESI_START
-%state ST_TESI_END
 %state ST_BLOCK
 %state ST_VAR
 %state ST_COMMENT
@@ -245,7 +244,7 @@ CLOSE_CURLY="}"
 
 %%
 
-<YYINITIAL, ST_RAW_START, ST_RAW_END, ST_VERBATIM_START, ST_VERBATIM_END, ST_TESI_START, ST_TESI_END,  ST_BLOCK, ST_VAR, ST_COMMENT>{WHITESPACE}+ {
+<YYINITIAL, ST_RAW_START, ST_RAW_END, ST_VERBATIM_START, ST_VERBATIM_END, ST_BLOCK, ST_VAR, ST_COMMENT>{WHITESPACE}+ {
 }
 
 <YYINITIAL> {
@@ -274,14 +273,6 @@ CLOSE_CURLY="}"
             yypushback(yylength() - indexOfVerbatimBlockStart);
             pushState(ST_VERBATIM_END);
         }
-    }
-    {BLOCK_TESI_START} {
-        pushState(ST_TESI_START);
-        return BladeTopTokenId.T_BLADE_BLOCK;
-    }
-    {BLOCK_TESI_END} {
-        pushState(ST_TESI_END);
-        return BladeTopTokenId.T_BLADE_BLOCK;
     }
     
     {BLOCK_START} {
@@ -315,6 +306,12 @@ CLOSE_CURLY="}"
             return BladeTopTokenId.T_BLADE_VAR_START;
         }
     }
+    {SECTION_PREFIX}+{SECTION} {
+        return BladeTopTokenId.T_BLADE_SECTION_START;
+    }
+    {SECTION_PREFIX}+{SECTION_END} {
+        return BladeTopTokenId.T_BLADE_SECTION_END;
+    }
     . {}
 }
 
@@ -338,20 +335,6 @@ CLOSE_CURLY="}"
         lexing = Lexing.VERBATIM;
         return BladeTopTokenId.T_BLADE_BLOCK_START;
     }
-}
-<ST_TESI_START> {
-    {BLOCK_TESI_END} {
-        popState();
-        return BladeTopTokenId.T_HTML;
-    }
-    . {}
-}
-<ST_TESI_END> {
-    {BLOCK_TESI_START} {
-        popState();
-        return BladeTopTokenId.T_HTML;
-    }
-    . {}
 }
 
 <ST_RAW_START, ST_VERBATIM_START> {
@@ -481,7 +464,7 @@ CLOSE_CURLY="}"
    This rule must be the last in the section!!
    it should contain all the states.
    ============================================ */
-<YYINITIAL, ST_RAW_START, ST_RAW_END, ST_VERBATIM_START, ST_VERBATIM_END, ST_TESI_START, ST_TESI_END, ST_BLOCK, ST_VAR, ST_COMMENT> {
+<YYINITIAL, ST_RAW_START, ST_RAW_END, ST_VERBATIM_START, ST_VERBATIM_END, ST_BLOCK, ST_VAR, ST_COMMENT> {
     . {
         yypushback(yylength());
         pushState(ST_HIGHLIGHTING_ERROR);

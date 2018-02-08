@@ -66,6 +66,7 @@ Contributor(s): Sebastian Hörl
     <fontcolor name="blade_string" foreColor="ffb4b427" default="string" />
     <fontcolor name="blade_tag" foreColor="ff00a0a0" default="keyword" />
     <fontcolor name="blade_punctuation" foreColor="ff00a0a0" default="keyword" />
+    <fontcolor name="blade_section" foreColor="ff4286f4" default="keyword" />
 
     <fontcolor name="blade_other" default="error" />
 

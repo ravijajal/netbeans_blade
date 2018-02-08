@@ -136,8 +136,8 @@ public class BladeCompletionHandler implements CodeCompletionHandler2 {
         TAGS.add(BladeElement.Factory.create("use", documentationFactory, "use \"${page.html}\"")); //NOI18N
         TAGS.add(BladeElement.Factory.create("trans", documentationFactory)); //NOI18N
         TAGS.add(BladeElement.Factory.create("endtrans", documentationFactory)); //NOI18N
-        TAGS.add(BladeElement.Factory.create("@tesi", documentationFactory)); //NOI18N
-        TAGS.add(BladeElement.Factory.create("@endtesi", documentationFactory)); //NOI18N
+        TAGS.add(BladeElement.Factory.create("tesi", documentationFactory)); //NOI18N
+        TAGS.add(BladeElement.Factory.create("endtesi", documentationFactory)); //NOI18N
     }
 
     private static final Set<BladeElement> FILTERS = new HashSet<>();

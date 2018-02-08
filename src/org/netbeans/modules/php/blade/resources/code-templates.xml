@@ -70,12 +70,12 @@ made subject to such option by the copyright holder.
     </codetemplate>
     <codetemplate uuid="org.netbeans.modules.php.blade.editor.codetemplate.tes" abbreviation="tes" contexts="blade-code">
         <code>
-<![CDATA[@tesi]]>
+<![CDATA[tesi]]>
         </code>
     </codetemplate>
     <codetemplate uuid="org.netbeans.modules.php.blade.editor.codetemplate.etes" abbreviation="etes" contexts="blade-code">
         <code>
-<![CDATA[@endtesi]]>
+<![CDATA[endtesi]]>
         </code>
     </codetemplate>
     <codetemplate uuid="org.netbeans.modules.php.blade.editor.codetemplate.em" abbreviation="em" contexts="blade-code">

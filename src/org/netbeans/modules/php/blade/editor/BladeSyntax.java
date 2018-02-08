@@ -54,12 +54,12 @@ import java.util.Set;
  * @author Ondrej Brejla <obrejla@netbeans.org>
  */
 public final class BladeSyntax {
-    private static final int END_PREFIX_LENGTH = "@end".length(); //NOI18N
+    private static final int END_PREFIX_LENGTH = "end".length(); //NOI18N
     public static final Set<String> BLOCK_MACROS = Collections.unmodifiableSet(new HashSet<>(Arrays.asList(
             "if", //NOI18N
             "for", //NOI18N
             "block", //NOI18N
-            "@tesi", //NOI18N
+            "tesi", //NOI18N
             "set", //NOI18N
             "macro", //NOI18N
             "filter", //NOI18N
