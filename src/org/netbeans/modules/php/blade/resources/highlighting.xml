@@ -44,7 +44,7 @@ made subject to such option by the copyright holder.
 -->
 <!--
 Contributor(s): Sebastian Hörl
- -->
+-->
 <!DOCTYPE fontscolors PUBLIC '-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN' 'http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd'>
 <fontscolors>
 
@@ -66,7 +66,10 @@ Contributor(s): Sebastian Hörl
     <fontcolor name="blade_string" foreColor="ffb4b427" default="string" />
     <fontcolor name="blade_tag" foreColor="ff00a0a0" default="keyword" />
     <fontcolor name="blade_punctuation" foreColor="ff00a0a0" default="keyword" />
-    <fontcolor name="blade_section" foreColor="ff4286f4" default="keyword" />
+    <fontcolor name="blade_prefix" foreColor="ffa8684b" default="keyword">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="blade_section" foreColor="ff66a84b" default="keyword" />
 
     <fontcolor name="blade_other" default="error" />
 

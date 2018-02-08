@@ -79,6 +79,7 @@ public class BladeTopColoringLexer {
     public static final int ST_VAR = 12;
     public static final int ST_COMMENT = 14;
     public static final int ST_HIGHLIGHTING_ERROR = 16;
+    public static final int ST_SECTION = 18;
 
     /**
      * ZZ_LEXSTATE[l] is the state in the DFA for the lexical state l
@@ -87,21 +88,21 @@ public class BladeTopColoringLexer {
      */
     private static final int ZZ_LEXSTATE[] = {
         0, 0, 1, 1, 2, 2, 3, 3, 2, 2, 4, 4, 5, 5, 6, 6,
-        7, 7
+        7, 7, 8, 8
     };
 
     /**
      * Translates characters to character classes
      */
     private static final String ZZ_CMAP_PACKED
-            = "\11\0\1\5\1\1\1\35\1\35\1\1\22\0\1\5\1\0\1\22"
-            + "\1\21\3\0\1\23\30\0\1\3\1\7\1\15\1\25\1\13\1\11"
-            + "\2\0\1\33\1\17\2\0\1\32\1\20\1\12\1\26\1\27\1\0"
-            + "\1\6\1\31\1\16\1\0\1\14\1\10\1\30\1\34\2\0\1\24"
-            + "\4\0\1\7\1\15\1\25\1\13\1\11\2\0\1\33\1\17\2\0"
-            + "\1\32\1\20\1\12\1\26\1\27\1\0\1\6\1\31\1\16\1\0"
-            + "\1\14\1\10\1\30\1\34\1\0\1\2\1\0\1\4\7\0\1\35"
-            + "\252\0\2\17\115\0\1\31\u1ea8\0\1\35\1\35\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\udfe6\0";
+            = "\11\0\1\5\1\1\1\36\1\36\1\1\22\0\1\5\1\0\1\22"
+            + "\1\21\1\0\1\3\1\0\1\23\30\0\1\25\1\7\1\15\1\26"
+            + "\1\13\1\11\2\0\1\34\1\17\2\0\1\33\1\20\1\12\1\27"
+            + "\1\30\1\0\1\6\1\32\1\16\1\0\1\14\1\10\1\31\1\35"
+            + "\2\0\1\24\4\0\1\7\1\15\1\26\1\13\1\11\2\0\1\34"
+            + "\1\17\2\0\1\33\1\20\1\12\1\27\1\30\1\0\1\6\1\32"
+            + "\1\16\1\0\1\14\1\10\1\31\1\35\1\0\1\2\1\0\1\4"
+            + "\7\0\1\36\252\0\2\17\115\0\1\32\u1ea8\0\1\36\1\36\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\udfe6\0";
 
     /**
      * Translates characters to character classes
@@ -114,14 +115,14 @@ public class BladeTopColoringLexer {
     private static final int[] ZZ_ACTION = zzUnpackAction();
 
     private static final String ZZ_ACTION_PACKED_0
-            = "\10\0\10\1\1\2\1\3\1\4\1\5\4\1\1\0"
-            + "\1\6\1\7\1\10\1\11\6\0\1\12\1\13\1\14"
-            + "\1\15\1\16\1\0\1\17\14\0\1\20\24\0\1\21"
-            + "\13\0\1\22\15\0\1\23\5\0\1\24\10\0\1\25"
-            + "\2\0\1\26";
+            = "\11\0\3\1\1\2\4\1\1\3\1\4\1\5\1\6"
+            + "\4\1\1\0\1\7\6\10\1\11\1\12\1\13\1\14"
+            + "\1\15\1\16\1\17\1\20\1\0\1\21\14\0\1\22"
+            + "\21\0\1\23\23\0\1\24\5\0\1\25\12\0\1\26"
+            + "\6\0\1\27\2\0\1\30";
 
     private static int[] zzUnpackAction() {
-        int[] result = new int[120];
+        int[] result = new int[121];
         int offset = 0;
         offset = zzUnpackAction(ZZ_ACTION_PACKED_0, offset, result);
         return result;
@@ -149,24 +150,25 @@ public class BladeTopColoringLexer {
     private static final int[] ZZ_ROWMAP = zzUnpackRowMap();
 
     private static final String ZZ_ROWMAP_PACKED_0
-            = "\0\0\0\36\0\74\0\132\0\170\0\226\0\264\0\322"
-            + "\0\360\0\u010e\0\u012c\0\u014a\0\u0168\0\u0186\0\u01a4\0\u01c2"
-            + "\0\360\0\u01e0\0\360\0\360\0\u01fe\0\u021c\0\u023a\0\u0258"
-            + "\0\u021c\0\360\0\360\0\u0276\0\360\0\u014a\0\u0294\0\u02b2"
-            + "\0\u02d0\0\u02ee\0\u030c\0\360\0\360\0\360\0\360\0\u032a"
-            + "\0\u0258\0\360\0\u0276\0\u0348\0\u0366\0\u0384\0\u03a2\0\u03c0"
-            + "\0\u03de\0\u03fc\0\u041a\0\u0438\0\u0456\0\u0474\0\360\0\u0492"
-            + "\0\u04b0\0\u04ce\0\u04ec\0\u050a\0\u0528\0\u0546\0\u0564\0\u0582"
-            + "\0\u05a0\0\u05be\0\u05dc\0\u05fa\0\u0618\0\u0636\0\u0654\0\u0672"
-            + "\0\u0690\0\u06ae\0\u06cc\0\360\0\u06ea\0\u0708\0\u0726\0\u0744"
-            + "\0\u0762\0\u0780\0\u079e\0\u07bc\0\u07da\0\u07f8\0\u0816\0\360"
-            + "\0\u0834\0\u0852\0\u0870\0\u088e\0\u08ac\0\u08ca\0\u08e8\0\u0906"
-            + "\0\u0924\0\u0942\0\u0960\0\u097e\0\u099c\0\360\0\u09ba\0\u09d8"
-            + "\0\u09f6\0\u0a14\0\u0a32\0\360\0\u0a50\0\u0a6e\0\u0a8c\0\u0aaa"
-            + "\0\u0ac8\0\u0ae6\0\u0b04\0\u0b22\0\360\0\u0b40\0\u0b5e\0\360";
+            = "\0\0\0\37\0\76\0\135\0\174\0\233\0\272\0\331"
+            + "\0\370\0\u0117\0\u0136\0\u0155\0\u0117\0\u0174\0\u0193\0\u01b2"
+            + "\0\u01d1\0\u0117\0\u01f0\0\u0117\0\u0117\0\u020f\0\u022e\0\u024d"
+            + "\0\u026c\0\u022e\0\u0117\0\u0117\0\u028b\0\u02aa\0\u02c9\0\u02e8"
+            + "\0\u0307\0\u0117\0\u0326\0\u0117\0\u0117\0\u0117\0\u0117\0\u0117"
+            + "\0\u0345\0\u026c\0\u0117\0\u0364\0\u0383\0\u03a2\0\u03c1\0\u03e0"
+            + "\0\u03ff\0\u041e\0\u043d\0\u0326\0\u045c\0\u047b\0\u049a\0\u0117"
+            + "\0\u04b9\0\u04d8\0\u04f7\0\u0516\0\u0535\0\u0554\0\u0573\0\u0592"
+            + "\0\u05b1\0\u05d0\0\u05ef\0\u060e\0\u062d\0\u064c\0\u066b\0\u068a"
+            + "\0\u06a9\0\u0117\0\u06c8\0\u06e7\0\u0706\0\u0725\0\u0744\0\u0763"
+            + "\0\u0782\0\u07a1\0\u07c0\0\u07df\0\u07fe\0\u081d\0\u083c\0\u085b"
+            + "\0\u087a\0\u0899\0\u08b8\0\u08d7\0\u08f6\0\u0117\0\u0915\0\u0934"
+            + "\0\u0953\0\u0972\0\u0991\0\u0117\0\u09b0\0\u09cf\0\u09ee\0\u0a0d"
+            + "\0\u0a2c\0\u0a4b\0\u0a6a\0\u0a89\0\u0aa8\0\u0ac7\0\u0117\0\u0ae6"
+            + "\0\u0b05\0\u0b24\0\u0b43\0\u0b62\0\u0b81\0\u0117\0\u0ba0\0\u0bbf"
+            + "\0\u0117";
 
     private static int[] zzUnpackRowMap() {
-        int[] result = new int[120];
+        int[] result = new int[121];
         int offset = 0;
         offset = zzUnpackRowMap(ZZ_ROWMAP_PACKED_0, offset, result);
         return result;
@@ -191,45 +193,46 @@ public class BladeTopColoringLexer {
     private static final int[] ZZ_TRANS = zzUnpackTrans();
 
     private static final String ZZ_TRANS_PACKED_0
-            = "\1\11\1\12\1\13\1\14\1\11\1\12\27\11\1\0"
-            + "\1\11\1\12\1\15\1\16\1\11\1\12\27\11\1\0"
-            + "\1\11\1\12\1\17\1\16\1\11\1\12\27\11\1\0"
-            + "\1\11\1\12\1\20\1\16\1\11\1\12\27\11\1\0"
-            + "\1\11\1\12\1\11\1\16\1\11\1\12\27\11\1\0"
-            + "\1\11\1\12\1\21\1\11\1\22\1\12\14\11\1\23"
-            + "\1\24\1\25\10\11\1\0\1\26\1\27\3\26\1\27"
-            + "\13\26\1\30\13\26\1\31\1\32\1\0\33\32\40\0"
-            + "\1\12\3\0\1\12\32\0\1\33\1\34\15\0\1\35"
-            + "\17\0\1\36\5\0\1\37\13\0\1\40\1\0\1\41"
-            + "\1\0\1\42\2\0\1\43\4\0\1\44\36\0\1\45"
-            + "\34\0\1\46\35\0\1\47\36\0\1\50\53\0\3\11"
-            + "\11\0\21\31\1\51\15\31\1\27\3\31\1\27\13\31"
-            + "\1\51\20\31\1\52\31\31\5\0\1\53\1\54\2\0"
-            + "\1\55\2\0\1\56\33\0\1\57\15\0\1\60\33\0"
-            + "\1\61\16\0\1\62\37\0\1\63\20\0\1\64\1\65"
-            + "\21\0\1\66\22\0\1\67\40\0\1\70\40\0\1\71"
-            + "\34\0\1\72\37\0\1\73\40\0\1\74\37\0\1\75"
-            + "\23\0\1\76\54\0\1\77\36\0\1\100\35\0\1\101"
-            + "\20\0\1\102\34\0\1\103\40\0\1\104\30\0\1\105"
-            + "\54\0\1\106\3\0\1\107\15\0\1\110\53\0\1\111"
-            + "\17\0\1\112\42\0\1\113\35\0\1\114\27\0\1\114"
-            + "\57\0\1\115\6\0\1\116\1\0\1\103\36\0\1\117"
-            + "\5\0\1\120\36\0\1\121\46\0\1\122\20\0\1\123"
-            + "\20\0\1\124\15\0\1\125\51\0\1\126\21\0\1\100"
-            + "\42\0\1\127\31\0\1\114\26\0\1\130\40\0\1\131"
-            + "\37\0\1\132\33\0\1\133\46\0\1\134\42\0\1\135"
-            + "\36\0\1\136\22\0\1\137\34\0\1\76\51\0\1\140"
-            + "\17\0\1\141\33\0\1\142\45\0\1\143\46\0\1\144"
-            + "\24\0\1\145\35\0\1\146\50\0\1\114\16\0\1\114"
-            + "\26\0\1\147\1\0\1\141\45\0\1\150\37\0\1\151"
-            + "\44\0\1\152\26\0\1\153\22\0\1\154\40\0\1\155"
-            + "\46\0\1\156\27\0\1\157\51\0\1\160\25\0\1\161"
-            + "\22\0\1\162\1\0\1\156\41\0\1\163\36\0\1\146"
-            + "\42\0\1\164\22\0\1\165\43\0\1\136\43\0\1\166"
-            + "\20\0\1\167\1\0\1\166\34\0\1\170\31\0";
+            = "\1\12\1\13\1\14\2\12\1\13\17\12\1\15\10\12"
+            + "\1\0\1\12\1\13\1\16\1\17\1\12\1\13\30\12"
+            + "\1\0\1\12\1\13\1\20\1\17\1\12\1\13\30\12"
+            + "\1\0\1\12\1\13\1\21\1\17\1\12\1\13\30\12"
+            + "\1\0\1\12\1\13\1\12\1\17\1\12\1\13\30\12"
+            + "\1\0\1\12\1\13\1\22\1\12\1\23\1\13\14\12"
+            + "\1\24\1\25\1\26\11\12\1\0\1\27\1\30\3\27"
+            + "\1\30\13\27\1\31\14\27\1\32\1\33\1\0\34\33"
+            + "\1\0\1\34\1\13\3\34\1\13\3\34\1\35\14\34"
+            + "\1\36\1\34\1\37\1\34\1\40\2\34\1\41\41\0"
+            + "\1\13\3\0\1\13\33\0\1\42\1\43\15\0\1\44"
+            + "\20\0\1\45\37\0\1\46\35\0\1\47\36\0\1\50"
+            + "\37\0\1\51\54\0\3\12\12\0\21\32\1\52\16\32"
+            + "\1\30\3\32\1\30\13\32\1\52\21\32\1\53\32\32"
+            + "\12\0\1\54\16\0\1\55\34\0\1\56\16\0\1\57"
+            + "\40\0\1\60\21\0\1\61\1\62\21\0\1\63\24\0"
+            + "\1\64\1\65\2\0\1\66\2\0\1\67\26\0\1\70"
+            + "\45\0\1\71\41\0\1\72\40\0\1\73\24\0\1\74"
+            + "\56\0\1\75\37\0\1\76\36\0\1\77\20\0\1\100"
+            + "\34\0\1\101\41\0\1\102\35\0\1\103\53\0\1\104"
+            + "\3\0\1\105\15\0\1\106\55\0\1\107\17\0\1\110"
+            + "\43\0\1\111\36\0\1\112\30\0\1\112\61\0\1\113"
+            + "\13\0\1\114\41\0\1\115\31\0\1\116\57\0\1\117"
+            + "\20\0\1\120\21\0\1\121\15\0\1\122\53\0\1\123"
+            + "\21\0\1\76\43\0\1\124\32\0\1\112\26\0\1\125"
+            + "\1\0\1\114\37\0\1\126\5\0\1\127\37\0\1\130"
+            + "\41\0\1\131\44\0\1\132\37\0\1\133\22\0\1\134"
+            + "\35\0\1\74\53\0\1\135\13\0\1\136\41\0\1\137"
+            + "\40\0\1\140\34\0\1\141\57\0\1\142\24\0\1\143"
+            + "\36\0\1\144\52\0\1\112\16\0\1\112\34\0\1\145"
+            + "\34\0\1\146\46\0\1\147\47\0\1\150\26\0\1\151"
+            + "\22\0\1\152\1\0\1\145\46\0\1\153\40\0\1\154"
+            + "\31\0\1\155\53\0\1\156\13\0\1\157\41\0\1\160"
+            + "\47\0\1\161\27\0\1\162\37\0\1\144\42\0\1\163"
+            + "\23\0\1\164\1\0\1\161\43\0\1\133\43\0\1\165"
+            + "\23\0\1\166\52\0\1\167\21\0\1\170\1\0\1\167"
+            + "\35\0\1\171\32\0";
 
     private static int[] zzUnpackTrans() {
-        int[] result = new int[2940];
+        int[] result = new int[3038];
         int offset = 0;
         offset = zzUnpackTrans(ZZ_TRANS_PACKED_0, offset, result);
         return result;
@@ -271,13 +274,13 @@ public class BladeTopColoringLexer {
     private static final int[] ZZ_ATTRIBUTE = zzUnpackAttribute();
 
     private static final String ZZ_ATTRIBUTE_PACKED_0
-            = "\10\0\1\11\7\1\1\11\1\1\2\11\4\1\1\0"
-            + "\2\11\1\1\1\11\6\0\4\11\1\1\1\0\1\11"
-            + "\14\0\1\11\24\0\1\11\13\0\1\11\15\0\1\11"
-            + "\5\0\1\11\10\0\1\11\2\0\1\11";
+            = "\11\0\1\11\2\1\1\11\4\1\1\11\1\1\2\11"
+            + "\4\1\1\0\2\11\5\1\1\11\1\1\5\11\1\1"
+            + "\1\0\1\11\14\0\1\11\21\0\1\11\23\0\1\11"
+            + "\5\0\1\11\12\0\1\11\6\0\1\11\2\0\1\11";
 
     private static int[] zzUnpackAttribute() {
-        int[] result = new int[120];
+        int[] result = new int[121];
         int offset = 0;
         offset = zzUnpackAttribute(ZZ_ATTRIBUTE_PACKED_0, offset, result);
         return result;
@@ -537,7 +540,7 @@ public class BladeTopColoringLexer {
         /* index in packed string  */
         int j = 0;
         /* index in unpacked array */
-        while (i < 188) {
+        while (i < 192) {
             int count = packed.charAt(i++);
             char value = packed.charAt(i++);
             do {
@@ -770,42 +773,58 @@ public class BladeTopColoringLexer {
             switch (zzAction < 0 ? zzAction : ZZ_ACTION[zzAction]) {
                 case 1: {
                 }
-                case 23:
+                case 25:
                     break;
                 case 2: {
+                    if (yylength() > 1) {
+                        yypushback(1);
+                        return BladeTopTokenId.T_HTML;
+                    }
+                    pushState(ST_SECTION);
+                    return BladeTopTokenId.T_BLADE_SECTION_PREFIX;
+                }
+                case 26:
+                    break;
+                case 3: {
                     if (!probablyInDString && !probablyInSString) {
                         curlyBalance++;
                     }
                 }
-                case 24:
+                case 27:
                     break;
-                case 3: {
+                case 4: {
                     if (!probablyInDString && !probablyInSString) {
                         curlyBalance--;
                     }
                 }
-                case 25:
+                case 28:
                     break;
-                case 4: {
+                case 5: {
                     if (!probablyInSString) {
                         probablyInDString = !probablyInDString;
                     }
                 }
-                case 26:
+                case 29:
                     break;
-                case 5: {
+                case 6: {
                     if (!probablyInDString) {
                         probablyInSString = !probablyInSString;
                     }
                 }
-                case 27:
-                    break;
-                case 6: {
-                    return BladeTopTokenId.T_BLADE_OTHER;
-                }
-                case 28:
+                case 30:
                     break;
                 case 7: {
+                    return BladeTopTokenId.T_BLADE_OTHER;
+                }
+                case 31:
+                    break;
+                case 8: {
+                    popState();
+                    return BladeTopTokenId.T_HTML;
+                }
+                case 32:
+                    break;
+                case 9: {
                     if (lexing == Lexing.NORMAL) {
                         if (yylength() > 2) {
                             yypushback(2);
@@ -816,9 +835,9 @@ public class BladeTopColoringLexer {
                         return BladeTopTokenId.T_BLADE_VAR_START;
                     }
                 }
-                case 29:
+                case 33:
                     break;
-                case 8: {
+                case 10: {
                     if (lexing == Lexing.NORMAL) {
                         if (yylength() > 2) {
                             yypushback(2);
@@ -828,9 +847,9 @@ public class BladeTopColoringLexer {
                         return BladeTopTokenId.T_BLADE_BLOCK_START;
                     }
                 }
-                case 30:
+                case 34:
                     break;
-                case 9: {
+                case 11: {
                     if (lexing == Lexing.NORMAL) {
                         int textLength = yylength();
                         yypushback(2);
@@ -840,9 +859,9 @@ public class BladeTopColoringLexer {
                         }
                     }
                 }
-                case 31:
+                case 35:
                     break;
-                case 10: {
+                case 12: {
                     if (yylength() > 2) {
                         yypushback(2);
                         return BladeTopTokenId.T_HTML;
@@ -850,9 +869,9 @@ public class BladeTopColoringLexer {
                     lexing = Lexing.RAW;
                     return BladeTopTokenId.T_BLADE_BLOCK_START;
                 }
-                case 32:
+                case 36:
                     break;
-                case 11: {
+                case 13: {
                     if (yylength() > 2) {
                         yypushback(2);
                         return BladeTopTokenId.T_BLADE_BLOCK;
@@ -860,9 +879,9 @@ public class BladeTopColoringLexer {
                     popState();
                     return BladeTopTokenId.T_BLADE_BLOCK_END;
                 }
-                case 33:
+                case 37:
                     break;
-                case 12: {
+                case 14: {
                     if (yylength() > 2) {
                         yypushback(2);
                         return BladeTopTokenId.T_HTML;
@@ -870,9 +889,9 @@ public class BladeTopColoringLexer {
                     lexing = Lexing.NORMAL;
                     return BladeTopTokenId.T_BLADE_BLOCK_START;
                 }
-                case 34:
+                case 38:
                     break;
-                case 13: {
+                case 15: {
                     if (yylength() > 2) {
                         yypushback(2);
                         return BladeTopTokenId.T_HTML;
@@ -880,9 +899,9 @@ public class BladeTopColoringLexer {
                     lexing = Lexing.VERBATIM;
                     return BladeTopTokenId.T_BLADE_BLOCK_START;
                 }
-                case 35:
+                case 39:
                     break;
-                case 14: {
+                case 16: {
                     if (!probablyInDString && !probablyInSString) {
                         if (yylength() > 2) {
                             if (curlyBalance == 0 || curlyBalance == 1) {
@@ -907,15 +926,15 @@ public class BladeTopColoringLexer {
                         }
                     }
                 }
-                case 36:
+                case 40:
                     break;
-                case 15: {
+                case 17: {
                     popState();
                     return BladeTopTokenId.T_BLADE_COMMENT;
                 }
-                case 37:
+                case 41:
                     break;
-                case 16: { // {{{}}}
+                case 18: { // {{{}}}
                     if (!probablyInDString && !probablyInSString) {
                         if (curlyBalance >= 0 && curlyBalance <= 2) {
                             curlyBalance--;
@@ -925,51 +944,53 @@ public class BladeTopColoringLexer {
                         }
                     }
                 }
-                case 38:
+                case 42:
                     break;
-                case 17: {
+                case 19: {
+                    popState();
                     return BladeTopTokenId.T_BLADE_SECTION_START;
                 }
-                case 39:
+                case 43:
                     break;
-                case 18: {
+                case 20: {
                     if (lexing == Lexing.NORMAL) {
                         yypushback(yylength());
                         pushState(ST_RAW_START);
                     }
                 }
-                case 40:
+                case 44:
                     break;
-                case 19: {
+                case 21: {
+                    popState();
                     return BladeTopTokenId.T_BLADE_SECTION_END;
                 }
-                case 41:
+                case 45:
                     break;
-                case 20: {
+                case 22: {
                     if (lexing != Lexing.VERBATIM) {
-                        int indexOfRawBlockStart = yytext().lastIndexOf("{@"); //NOI18N
+                        int indexOfRawBlockStart = yytext().lastIndexOf("{%"); //NOI18N
                         yypushback(yylength() - indexOfRawBlockStart);
                         pushState(ST_RAW_END);
                     }
                 }
-                case 42:
+                case 46:
                     break;
-                case 21: {
+                case 23: {
                     if (lexing == Lexing.NORMAL) {
                         yypushback(yylength());
                         pushState(ST_VERBATIM_START);
                     }
                 }
-                case 43:
+                case 47:
                     break;
-                case 22: {
+                case 24: {
                     if (lexing != Lexing.RAW) {
-                        int indexOfVerbatimBlockStart = yytext().lastIndexOf("{@"); //NOI18N
+                        int indexOfVerbatimBlockStart = yytext().lastIndexOf("{%"); //NOI18N
                         yypushback(yylength() - indexOfVerbatimBlockStart);
                         pushState(ST_VERBATIM_END);
                     }
                 }
-                case 44:
+                case 48:
                     break;
                 default:
                     if (zzInput == YYEOF) //zzAtEOF = true;

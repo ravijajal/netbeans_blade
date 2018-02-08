@@ -94,7 +94,7 @@ public class BladeTypedTextInterceptor implements TypedTextInterceptor {
         }
         TokenSequence<? extends TokenId> ts = BladeLexerUtils.getBladeMarkupTokenSequence(doc, caretOffset);
         if (ts == null) {
-            // {{}} or {@@} there is no text between delimiters
+            // {{}} or {%%} there is no text between delimiters
             ts = BladeLexerUtils.getBladeTokenSequence(document, caretOffset);
             if (ts == null) {
                 return;
@@ -155,7 +155,7 @@ public class BladeTypedTextInterceptor implements TypedTextInterceptor {
                 }
             }
         } else if(id == BladeTopTokenId.T_BLADE_BLOCK_END || id == BladeTopTokenId.T_BLADE_VAR_END) {
-            // {{}} or {@@}
+            // {{}} or {%%}
             if ((isOpeningBracket(ch) || isQuote(ch))
                     && tokenOffset == caretOffset) {
                 completeQuoteAndBracket(context, ch);
@@ -261,9 +261,9 @@ public class BladeTypedTextInterceptor implements TypedTextInterceptor {
 
         switch (ch) {
             case '{': // no break
-            case '@':
+            case '%':
                 String mimeType = getMimeType();
-                // do nothing in {@ @} and {{ }}
+                // do nothing in {% %} and {{ }}
                 if (mimeType.equals(BladeLanguage.BLADE_MIME_TYPE) // in case of {{^
                         || mimeType.equals(BladeLanguage.BLADE_BLOCK_MIME_TYPE)
                         || mimeType.equals(BladeLanguage.BLADE_VARIABLE_MIME_TYPE)) {
@@ -281,7 +281,7 @@ public class BladeTypedTextInterceptor implements TypedTextInterceptor {
                 Token<? extends BladeTopTokenId> token = ts.token();
                 BladeTopTokenId id = token.id();
                 if (id == BladeTopTokenId.T_BLADE_BLOCK_START) {
-                    completeOpeningDelimiter(doc, tokenEndPos, tokenEndPos + 1, caret, "  @}"); // NOI18N
+                    completeOpeningDelimiter(doc, tokenEndPos, tokenEndPos + 1, caret, "  %}"); // NOI18N
                 } else if (id == BladeTopTokenId.T_BLADE_VAR_START) {
                     completeOpeningDelimiter(doc, tokenEndPos, tokenEndPos + 1, caret, "  }}"); // NOI18N
                 }

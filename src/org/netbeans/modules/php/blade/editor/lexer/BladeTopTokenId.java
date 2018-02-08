@@ -70,7 +70,8 @@ public enum BladeTopTokenId implements TokenId {
     T_BLADE_VAR_END("blade_var_delimiter"), //NOI18N
     T_HTML("blade_html"), //NOI18N
     T_BLADE_SECTION_START("blade_section"), //NOI18N
-    T_BLADE_SECTION_END("blade_section"); //NOI18N
+    T_BLADE_SECTION_END("blade_section"), //NOI18N
+    T_BLADE_SECTION_PREFIX("blade_prefix"); //NOI18N
 
     private final String primaryCategory;
 

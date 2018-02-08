@@ -130,7 +130,7 @@ public class BladeDeletedTextInterceptor implements DeletedTextInterceptor {
 
         public static BeforeRemover create(char c) {
             switch (c) {
-                case '@':
+                case '%':
                     return new BlockDelimiterRemover();
                 case '{':
                     return new VariableDelimiterRemover();
@@ -150,7 +150,7 @@ public class BladeDeletedTextInterceptor implements DeletedTextInterceptor {
                 int dotPos = context.getOffset();
                 Document document = context.getDocument();
                 TokenSequence<? extends BladeTopTokenId> ts = BladeLexerUtils.getBladeTokenSequence(document, dotPos);
-                // now support {{}} and {@@}, should also check whitespaces?
+                // now support {{}} and {%%}, should also check whitespaces?
                 if (ts != null) {
                     ts.move(dotPos);
                     if (ts.movePrevious()) {
@@ -160,7 +160,7 @@ public class BladeDeletedTextInterceptor implements DeletedTextInterceptor {
                             if (ts.moveNext()) {
                                 if (ts.token().id() == getClosingId()
                                         && ts.offset() == dotPos) {
-                                    document.remove(dotPos - 2, 4); // {{}} or {@@}
+                                    document.remove(dotPos - 2, 4); // {{}} or {%%}
                                     return true;
                                 }
                             }

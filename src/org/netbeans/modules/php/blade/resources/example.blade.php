@@ -3,9 +3,9 @@
         {{ image( 'img/header.png' ) }}
         <ul>
         {# usage example: for loop #}
-        {@ for user in users @}
+        {% for user in users %}
             <li>{{ user.name }}</li>
-        {@ endfor @}
+        {% endfor %}
         </ul>
         {{ "Foo #{bar} baz." }}
     </body>

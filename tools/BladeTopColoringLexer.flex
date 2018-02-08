@@ -214,12 +214,12 @@ import org.netbeans.modules.web.common.api.ByteStack;
 %}
 
 WHITESPACE=[ \t\r\n]+
-BLOCK_START="{@"
-BLOCK_END="@}"
-BLOCK_RAW_START="{@"[ \t]*"raw"[ \t]*"@}"
-BLOCK_RAW_END="{@"[ \t]*"endraw"[ \t]*"@}"
-BLOCK_VERBATIM_START="{@"[ \t]*"verbatim"[ \t]*"@}"
-BLOCK_VERBATIM_END="{@"[ \t]*"endverbatim"[ \t]*"@}"
+BLOCK_START="{%"
+BLOCK_END="%}"
+BLOCK_RAW_START="{%"[ \t]*"raw"[ \t]*"%}"
+BLOCK_RAW_END="{%"[ \t]*"endraw"[ \t]*"%}"
+BLOCK_VERBATIM_START="{%"[ \t]*"verbatim"[ \t]*"%}"
+BLOCK_VERBATIM_END="{%"[ \t]*"endverbatim"[ \t]*"%}"
 VAR_START="{{"
 VAR_END="}}"
 COMMENT_START="{#"
@@ -241,10 +241,11 @@ SECTION_END=("endcomponent"|"endsection"|"endslot")
 %state ST_VAR
 %state ST_COMMENT
 %state ST_HIGHLIGHTING_ERROR
+%state ST_SECTION
 
 %%
 
-<YYINITIAL, ST_RAW_START, ST_RAW_END, ST_VERBATIM_START, ST_VERBATIM_END, ST_BLOCK, ST_VAR, ST_COMMENT>{WHITESPACE}+ {
+<YYINITIAL, ST_RAW_START, ST_RAW_END, ST_VERBATIM_START, ST_VERBATIM_END, ST_BLOCK, ST_VAR, ST_COMMENT, ST_SECTION>{WHITESPACE}+ {
 }
 
 <YYINITIAL> {
@@ -256,7 +257,7 @@ SECTION_END=("endcomponent"|"endsection"|"endslot")
     }
     {BLOCK_RAW_END} {
         if (lexing != Lexing.VERBATIM) {
-            int indexOfRawBlockStart = yytext().lastIndexOf("{@"); //NOI18N
+            int indexOfRawBlockStart = yytext().lastIndexOf("{%"); //NOI18N
             yypushback(yylength() - indexOfRawBlockStart);
             pushState(ST_RAW_END);
         }
@@ -269,7 +270,7 @@ SECTION_END=("endcomponent"|"endsection"|"endslot")
     }
     {BLOCK_VERBATIM_END} {
         if (lexing != Lexing.RAW) {
-            int indexOfVerbatimBlockStart = yytext().lastIndexOf("{@"); //NOI18N
+            int indexOfVerbatimBlockStart = yytext().lastIndexOf("{%"); //NOI18N
             yypushback(yylength() - indexOfVerbatimBlockStart);
             pushState(ST_VERBATIM_END);
         }
@@ -306,15 +307,32 @@ SECTION_END=("endcomponent"|"endsection"|"endslot")
             return BladeTopTokenId.T_BLADE_VAR_START;
         }
     }
-    {SECTION_PREFIX}+{SECTION} {
-        return BladeTopTokenId.T_BLADE_SECTION_START;
-    }
-    {SECTION_PREFIX}+{SECTION_END} {
-        return BladeTopTokenId.T_BLADE_SECTION_END;
+    
+    {SECTION_PREFIX} {
+        if (yylength() > 1) {
+                yypushback(1);
+                return BladeTopTokenId.T_HTML;
+        }
+        pushState(ST_SECTION);
+        return BladeTopTokenId.T_BLADE_SECTION_PREFIX;
     }
     . {}
 }
 
+<ST_SECTION> {
+    {SECTION} {
+        popState();
+        return BladeTopTokenId.T_BLADE_SECTION_START;
+    }
+    {SECTION_END} {
+        popState();
+        return BladeTopTokenId.T_BLADE_SECTION_END;
+    }
+    . {
+        popState();
+        return BladeTopTokenId.T_HTML;
+    }
+}
 <ST_RAW_START> {
     {BLOCK_START} {
         if (yylength() > 2) {
@@ -464,7 +482,7 @@ SECTION_END=("endcomponent"|"endsection"|"endslot")
    This rule must be the last in the section!!
    it should contain all the states.
    ============================================ */
-<YYINITIAL, ST_RAW_START, ST_RAW_END, ST_VERBATIM_START, ST_VERBATIM_END, ST_BLOCK, ST_VAR, ST_COMMENT> {
+<YYINITIAL, ST_RAW_START, ST_RAW_END, ST_VERBATIM_START, ST_VERBATIM_END, ST_BLOCK, ST_VAR, ST_COMMENT, ST_SECTION> {
     . {
         yypushback(yylength());
         pushState(ST_HIGHLIGHTING_ERROR);
