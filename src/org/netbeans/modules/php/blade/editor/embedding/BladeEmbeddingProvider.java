@@ -55,8 +55,8 @@ import org.netbeans.modules.parsing.spi.EmbeddingProvider;
 import org.netbeans.modules.php.blade.editor.gsf.BladeLanguage;
 import org.netbeans.modules.php.blade.editor.lexer.BladeTopTokenId;
 
-@EmbeddingProvider.Registration(mimeType = BladeLanguage.BLADE_MIME_TYPE, targetMimeType = BladeHtmlEmbeddingProvider.TARGET_MIME_TYPE)
-public class BladeHtmlEmbeddingProvider extends EmbeddingProvider {
+@EmbeddingProvider.Registration(mimeType = BladeLanguage.BLADE_MIME_TYPE, targetMimeType = BladeEmbeddingProvider.TARGET_MIME_TYPE)
+public class BladeEmbeddingProvider extends EmbeddingProvider {
 
     public static final String TARGET_MIME_TYPE = "text/html"; //NOI18N
     public static final String GENERATED_CODE = "@@@"; //NOI18N

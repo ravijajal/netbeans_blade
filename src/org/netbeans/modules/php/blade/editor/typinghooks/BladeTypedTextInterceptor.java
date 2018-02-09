@@ -52,7 +52,7 @@ import org.netbeans.api.lexer.Token;
 import org.netbeans.api.lexer.TokenId;
 import org.netbeans.api.lexer.TokenSequence;
 import org.netbeans.editor.BaseDocument;
-import org.netbeans.modules.php.blade.editor.embedding.BladeHtmlEmbeddingProvider;
+import org.netbeans.modules.php.blade.editor.embedding.BladeEmbeddingProvider;
 import org.netbeans.modules.php.blade.editor.gsf.BladeLanguage;
 import org.netbeans.modules.php.blade.editor.lexer.BladeBlockTokenId;
 import org.netbeans.modules.php.blade.editor.lexer.BladeLexerUtils;
@@ -387,7 +387,7 @@ public class BladeTypedTextInterceptor implements TypedTextInterceptor {
     }
 
     @MimeRegistrations(value = {
-        @MimeRegistration(mimeType = BladeHtmlEmbeddingProvider.TARGET_MIME_TYPE, service = TypedTextInterceptor.Factory.class),
+        @MimeRegistration(mimeType = BladeEmbeddingProvider.TARGET_MIME_TYPE, service = TypedTextInterceptor.Factory.class),
         @MimeRegistration(mimeType = BladeLanguage.BLADE_MIME_TYPE, service = TypedTextInterceptor.Factory.class) ,
         @MimeRegistration(mimeType = BladeLanguage.BLADE_BLOCK_MIME_TYPE, service = TypedTextInterceptor.Factory.class) ,
         @MimeRegistration(mimeType = BladeLanguage.BLADE_VARIABLE_MIME_TYPE, service = TypedTextInterceptor.Factory.class)
