@@ -62,11 +62,6 @@ Contributor(s): Sebastian Hörl
         <folder name="text">
             <folder name="x-blade">
 
-                <file name="EditorKit.instance">
-                    <attr name="instanceClass" stringvalue="org.netbeans.modules.php.blade.editor.BladeEditorKit"/>
-                    <attr name="instanceOf" stringvalue="javax.swing.text.EditorKit,org.netbeans.modules.php.blade.editor.BladeEditorKit"/>
-                    <attr name="beaninfo" boolvalue="false"/>
-                </file>
 
                 <file name="language.instance">
                     <attr name="instanceCreate" methodvalue="org.netbeans.modules.php.blade.editor.lexer.BladeTopTokenId.language"/>
@@ -270,12 +265,7 @@ Contributor(s): Sebastian Hörl
                     <folder name="x-blade">
                         <file name="BladeCodeCompletion.instance">
                             <attr name="instanceOf" stringvalue="org.netbeans.modules.options.editor.spi.PreferencesCustomizer$Factory"/>
-                            <attr name="instanceCreate" methodvalue="org.netbeans.modules.php.blade.editor.ui.options.CodeCompletionPanel.getCustomizerFactory"/>
                             <attr name="position" intvalue="100"/>
-                        </file>
-                        <file name="BladeSpecificCustomCustomizer.instance">
-                            <attr name="instanceCreate" newvalue="org.netbeans.modules.php.blade.editor.ui.options.CodeCompletionPanel$CustomCustomizerImpl"/>
-                            <attr name="position" intvalue="110"/>
                         </file>
                     </folder>
                 </folder>

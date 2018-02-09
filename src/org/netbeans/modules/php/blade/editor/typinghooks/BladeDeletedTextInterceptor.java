@@ -55,7 +55,6 @@ import org.netbeans.modules.php.blade.editor.lexer.BladeBlockTokenId;
 import org.netbeans.modules.php.blade.editor.lexer.BladeLexerUtils;
 import org.netbeans.modules.php.blade.editor.lexer.BladeTopTokenId;
 import org.netbeans.modules.php.blade.editor.lexer.BladeVariableTokenId;
-import org.netbeans.modules.php.blade.editor.ui.options.OptionsUtils;
 import org.netbeans.spi.editor.typinghooks.DeletedTextInterceptor;
 
 /**
@@ -146,7 +145,6 @@ public class BladeDeletedTextInterceptor implements DeletedTextInterceptor {
 
         @Override
         public boolean beforeRemove(Context context) throws BadLocationException {
-            if (OptionsUtils.autoCompletionSmartDelimiters()) {
                 int dotPos = context.getOffset();
                 Document document = context.getDocument();
                 TokenSequence<? extends BladeTopTokenId> ts = BladeLexerUtils.getBladeTokenSequence(document, dotPos);
@@ -167,7 +165,6 @@ public class BladeDeletedTextInterceptor implements DeletedTextInterceptor {
                         }
                     }
                 }
-            }
             return false;
         }
 
@@ -308,7 +305,6 @@ public class BladeDeletedTextInterceptor implements DeletedTextInterceptor {
 
         @Override
         public void remove(Context context) throws BadLocationException {
-            if (OptionsUtils.autoCompletionSmartQuotes()) {
                 BaseDocument doc = (BaseDocument) context.getDocument();
                 int dotPos = context.getOffset() - 1;
                 TokenSequence<? extends TokenId> ts = BladeLexerUtils.getBladeMarkupTokenSequence(doc, dotPos);
@@ -331,7 +327,6 @@ public class BladeDeletedTextInterceptor implements DeletedTextInterceptor {
                 if ((match != null) && (match[0] == getQuote())) {
                     doc.remove(dotPos, 1);
                 }
-            }
         }
 
         protected abstract char getQuote();

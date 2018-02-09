@@ -58,7 +58,6 @@ import org.netbeans.modules.php.blade.editor.lexer.BladeBlockTokenId;
 import org.netbeans.modules.php.blade.editor.lexer.BladeLexerUtils;
 import org.netbeans.modules.php.blade.editor.lexer.BladeTopTokenId;
 import org.netbeans.modules.php.blade.editor.lexer.BladeVariableTokenId;
-import org.netbeans.modules.php.blade.editor.ui.options.OptionsUtils;
 import org.netbeans.spi.editor.typinghooks.TypedTextInterceptor;
 
 public class BladeTypedTextInterceptor implements TypedTextInterceptor {
@@ -372,12 +371,12 @@ public class BladeTypedTextInterceptor implements TypedTextInterceptor {
     }
 
     private static boolean doNotAutoCompleteQuotesAndBrackets(char c) {
-        return (isQuote(c) && !OptionsUtils.autoCompletionSmartQuotes())
+        return (isQuote(c))
                 || (isBracket(c) && !TypingHooksUtils.isInsertMatchingEnabled());
     }
 
     private static boolean doNotAutoCompleteDelimiters(char c) {
-        return TypingHooksUtils.isOpeningDelimiterChar(c) && !OptionsUtils.autoCompletionSmartDelimiters();
+        return TypingHooksUtils.isOpeningDelimiterChar(c);
     }
 
     private static boolean isClosingBracketMissing(BaseDocument docment, char open, char close, int dotPos) throws BadLocationException {
