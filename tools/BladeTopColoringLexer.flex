@@ -229,7 +229,7 @@ S_STRING_DELIM='
 PRECEDED_STRING="\\\'"|"\\\""|"\\\\"
 OPEN_CURLY="{"
 CLOSE_CURLY="}"
-SECTION_PREFIX = "@"
+SECTION_PREFIX="@"
 SECTION=("component"|"extends"|"parent"|"section"|"slot"|"show"|"yield")
 SECTION_END=("endcomponent"|"endsection"|"endslot")
 
